@@ -1,0 +1,15 @@
+name = Views UI
+description = Administrative interface to views. Without this module, you cannot create or edit your views.
+package = Views
+core = 7.x
+configure = admin/structure/views
+dependencies[] = views
+files[] = views_ui.module
+files[] = plugins/views_wizard/views_ui_base_views_wizard.class.php
+
+
+; Information added by drush on 2012-12-03
+version = "cc9a82a11d393467c0a51e27e5f3937efbf01f5c"
+project = "views"
+datestamp = "1354504705"
+
