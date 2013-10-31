@@ -1,6 +1,0 @@
-# Comment
-
-=begin
-	hfonline
-=end
-
