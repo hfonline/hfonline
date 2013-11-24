@@ -9,17 +9,18 @@ body
 
 #page
 {
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-bottom: 5px;
 	background: white;
-	border: 1px solid #C9E0ED;
+	border: none;
 }
 
 #header
 {
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	border-top: none;
+    height:150px;
 }
 
 #content
@@ -38,7 +39,7 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: none;
 }
 
 #logo
@@ -67,7 +68,7 @@ body
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:12px;
+	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
 	padding:5px 8px;
@@ -84,28 +85,25 @@ div.flash-error, div.flash-notice, div.flash-success
 {
 	padding:.8em;
 	margin-bottom:1em;
-	border:2px solid #ddd;
+	border:none;
 }
 
 div.flash-error
 {
 	background:#FBE3E4;
 	color:#8a1f11;
-	border-color:#FBC2C4;
 }
 
 div.flash-notice
 {
 	background:#FFF6BF;
 	color:#514721;
-	border-color:#FFD324;
 }
 
 div.flash-success
 {
 	background:#E6EFC2;
 	color:#264409;
-	border-color:#C6D880;
 }
 
 div.flash-error a
@@ -132,7 +130,6 @@ div.view
 {
 	padding: 10px;
 	margin: 10px 0;
-	border: 1px solid #C9E0ED;
 }
 
 div.breadcrumbs
@@ -162,7 +159,6 @@ div.search-form
 {
 	padding: 3px 8px;
 	background: #B7D6E7;
-	border-left: 5px solid #6FACCF;
 }
 
 .portlet-title
