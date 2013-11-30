@@ -9,7 +9,6 @@ body
 
 #page
 {
-	margin-top: 8px;
 	margin-bottom: 5px;
 	background: white;
 	border: none;
@@ -17,15 +16,18 @@ body
 
 #header
 {
-	margin: 0;
 	padding: 0;
 	border-top: none;
-    height:150px;
+    height:100px;
+    padding-top:25px;
 }
 
 #content
 {
-    padding: 20px;
+  float:left;
+  clear:right;
+  width: 700px;
+  margin-left: 256px;
 }
 
 #sidebar
@@ -50,25 +52,29 @@ body
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+	background: #000020;
+    height: 25px;
 }
 
 #mainmenu ul
 {
 	padding:6px 20px 5px 20px;
 	margin:0px;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #mainmenu ul li
 {
-	display: inline;
+	display: block;
+    float:left;
 }
 
 #mainmenu ul li a
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:20px;
+	font-size:12px;
 	font-weight:bold;
 	text-decoration:none;
 	padding:5px 8px;
@@ -222,4 +228,108 @@ div.search-form
 .operations li a:hover
 {
 	background: #80CFFF;
+}
+
+#left-sidebar {
+  width: 250px;
+  float:left;
+  position: fixed;
+}
+
+.loginform-input {
+  float:right;
+  margin-right: 10px;
+}
+
+.loginform-submit {
+  margin-right: 20px;
+  width: 50px;
+}
+
+span.star {
+  width: 65px;
+  height: 12px;
+  background: url("../images/sprites.png") no-repeat 0 -40px;
+  vertical-align: text-top;
+  display: inline-block;
+}
+
+span.star .star-5-5 {
+  background-position: 0px -55px;
+}
+
+.symbol-rmb {
+  font-size: 12px;
+}
+
+.symbol-rmb:before {
+  content: "\00a5";
+  margin-right: 15px;
+  line-height: inherit;
+}
+
+#content .food-items {
+  margin: 0 auto;
+  width: 650px;
+}
+
+.food-items .item {
+  float:left;
+  margin: 5px 10px;
+}
+
+.block {
+  margin-bottom: 20px;
+}
+
+.block .title {
+  border-radius: 5px;
+  background: -webkit-gradient(linear,center top,center bottom,from(#9ecfdb), to(#9ecfc4));
+  font-size: 12px;
+}
+
+.block .content {
+  padding-top: 20px;
+  border: 1px solid #9ecfc4;
+  border-top: none;
+  margin-top: -2px;
+  padding-bottom: 20px;
+}
+
+.block #loginForm label {
+  margin-left:5px;
+}
+
+.block .title h3 {
+  display: block;
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+  line-height: 30px;
+  vertical-align: text-bottom;
+}
+
+#index-main-block.block {
+  position: relative;
+}
+
+#index-main-block.block > .title {
+  position: fixed;
+  height: 30px;
+  width:700px;
+}
+
+#index-main-block.block > .content {
+  padding-top: 45px;
+}
+
+#fixed-top {
+  position: fixed;
+  background:#fff;
+  width:960px;
+  z-index: 20;
+}
+
+#main {
+  padding-top: 152px;
 }
