@@ -7,6 +7,37 @@ body
 	background: #EFEFEF;
 }
 
+input[type="button"], button {
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#ff8800 0%,
+		#ffb45e 60%,
+		#ff8800);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ff8800),
+		color-stop(0.60, #ffb45e),
+		to(#ff8800));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ff7300;
+	-moz-box-shadow:
+		0px 1px 3px rgba(046,021,021,1),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(046,021,021,1),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(046,021,021,1),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(003,003,003,0.3);
+}
+
+
 #page
 {
 	margin-bottom: 5px;
@@ -24,10 +55,10 @@ body
 
 #content
 {
-  float:left;
-  clear:right;
-  width: 700px;
-  margin-left: 256px;
+  float: left;
+  clear: right;
+  width: 658px;
+  margin-left: 282px;
 }
 
 #sidebar
@@ -52,8 +83,12 @@ body
 
 #mainmenu
 {
-	background: #000020;
     height: 25px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear,center top,center bottom,from(#9ecfdb), to(#94b7c4));
+    font-size: 12px;
+    box-shadow: 2px 2px 2px #EFEFEF;
+    -webkit-box-shadow: 1px 2px 2px #EFEFEF;
 }
 
 #mainmenu ul
@@ -232,8 +267,9 @@ div.search-form
 
 #left-sidebar {
   width: 250px;
-  float:left;
+  float: left;
   position: fixed;
+  margin-left: 15px;
 }
 
 .loginform-input {
@@ -264,7 +300,7 @@ span.star .star-5-5 {
 
 .symbol-rmb:before {
   content: "\00a5";
-  margin-right: 15px;
+  margin-left: 15px;
   line-height: inherit;
 }
 
@@ -284,13 +320,15 @@ span.star .star-5-5 {
 
 .block .title {
   border-radius: 5px;
-  background: -webkit-gradient(linear,center top,center bottom,from(#9ecfdb), to(#9ecfc4));
+  background: -webkit-gradient(linear,center top,center bottom,from(#9ecfdb), to(#94b7c4));
   font-size: 12px;
+  box-shadow: 2px 2px 2px #EFEFEF;
+  -webkit-box-shadow: 1px 2px 2px #EFEFEF;
 }
 
 .block .content {
   padding-top: 20px;
-  border: 1px solid #9ecfc4;
+  border: 1px solid #EFEFEF;
   border-top: none;
   margin-top: -2px;
   padding-bottom: 20px;
@@ -307,6 +345,28 @@ span.star .star-5-5 {
   margin: 0 auto;
   line-height: 30px;
   vertical-align: text-bottom;
+  font-size:14px;
+  font-weight: bold;
+  color: #EFEFEF;
+}
+
+.food-items .item h3, .block .item h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  color: #ff7f00;
+  margin: 5px 2px;
+}
+
+.food-items .item .star-price, .block .item star-price {
+  margin: 5px 2px;
+}
+
+.food-items .item input, .block .item input {
+  display: block;
 }
 
 #index-main-block.block {
@@ -314,13 +374,17 @@ span.star .star-5-5 {
 }
 
 #index-main-block.block > .title {
-  position: fixed;
   height: 30px;
-  width:700px;
+  width: 658px;
+}
+
+#index-main-block.block > .title h3{
+  width: 600px;
 }
 
 #index-main-block.block > .content {
-  padding-top: 45px;
+  margin-top: 0;
+  padding-top:0;
 }
 
 #fixed-top {

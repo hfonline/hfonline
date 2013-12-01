@@ -12,104 +12,96 @@ $this->pageTitle = Yii::t('strings', Yii::app()->name);
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
 
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
       
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
       
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
       
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
       
       <div class="item">
         <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
         <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
-        <input type="button" value="Order" />
-      </div>
-      
-      <div class="item">
-        <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
-        <h3>咖喱鸡肉饭简餐</h3>
-        <span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span>
+        <div class="star-price"><span class="star star-5-5"></span>
+        <span class="symbol-rmb price">14</span></div>
         <input type="button" value="Order" />
       </div>
     </div>

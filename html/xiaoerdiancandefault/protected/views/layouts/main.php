@@ -69,14 +69,38 @@
             </div>
           </div>
           <div class="block">
-            <div class="title"><h3><?php echo Yii::t('strings', "Promotion") ?></h3></div>
+            <div class="title"><h3><?php echo Yii::t('strings', "Your Order") ?></h3></div>
             <div class="content">
-              <div class="item promotion">
-                <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
-                <h3>咖喱鸡肉饭简餐</h3>
-                <span class="star star-5-5"></span>
-                <span class="symbol-rmb price">14</span>
-                <input type="button" value="Order" />
+              <div class="user-info">
+                <span>未登陆</span>
+              </div>
+              <div class="order-items">
+                <div class="items">
+                  <span>咖喱鸡肉饭简餐</span>
+                  <span class="symbol-rmb"></span><span>14</span>
+                  <span>2</span><span>份</span>
+                </div>
+                <div class="items">
+                  <span>咖喱鸡肉饭简餐</span>
+                  <span class="symbol-rmb"></span><span>14</span>
+                  <span>2</span><span>份</span>
+                </div>
+                <div class="items">
+                  <span>咖喱鸡肉饭简餐</span>
+                  <span class="symbol-rmb"></span><span>14</span>
+                  <span>2</span><span>份</span>
+                </div>
+                <div class="items">
+                  <span>咖喱鸡肉饭简餐</span>
+                  <span class="symbol-rmb"></span><span>14</span>
+                  <span>2</span><span>份</span>
+                </div>
+                <div class="items">
+                  <span>咖喱鸡肉饭简餐</span>
+                  <span class="symbol-rmb"></span><span>14</span>
+                  <span>2</span><span>份</span>
+                </div>
+                <div class="order-button"><input type="button" value="<?php echo Yii::t("strings", "Pay now")?>" /></div>
               </div>
             </div>
           </div>
