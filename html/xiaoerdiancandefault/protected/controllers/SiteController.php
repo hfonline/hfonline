@@ -1,6 +1,8 @@
 <?php
 
 class SiteController extends Controller
+
+
 {
 	/**
 	 * Declares class-based actions.
