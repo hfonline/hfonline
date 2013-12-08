@@ -14,6 +14,13 @@
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css?v=<?php echo time() ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css?v=<?php echo time() ?>" />
+    
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/scripts/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/scripts/jquery.form.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/scripts/underscore.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/scripts/backbone.js"></script>
+    <script language="javascript" src="http://webapi.amap.com/maps?v=1.2&key=20980ecb729e7a0fb5e3e32717b81ecd"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/scripts/script.js"></script>
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
   </head>

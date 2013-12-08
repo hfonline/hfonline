@@ -304,14 +304,20 @@ span.star .star-5-5 {
   line-height: inherit;
 }
 
-#content .food-items {
+#content #index-main-block .food-items {
   margin: 0 auto;
   width: 650px;
 }
 
-.food-items .item {
+#index-main-block .food-items .item {
   float:left;
   margin: 5px 10px;
+  position: relative;
+}
+
+#index-main-block .food-items .item .detail-order-select {
+  position: absolute;
+  z-index: 10000;
 }
 
 .block {
@@ -376,15 +382,83 @@ span.star .star-5-5 {
 #index-main-block.block > .title {
   height: 30px;
   width: 658px;
+  position: fixed;
+  margin-top:-2px;
+  z-index: 10000;
+}
+
+#index-main-block.block > .title .filter {
+  position: relative;
+}
+
+#index-main-block.block > .title .filter > input[type="button"] {
+  position: absolute;
+  left: 92%;
+  top: -27px;
+}
+
+#index-main-block.block > .title .filter > form{
+  background-color: #94b7c4;
+  margin-top: 3px;
+  position: absolute;
+  width: 100%;
+  display: none;
 }
 
 #index-main-block.block > .title h3{
   width: 600px;
 }
 
-#index-main-block.block > .content {
+#adress-main-block.block > .content {
   margin-top: 0;
-  padding-top:0;
+  padding-top: 30px;
+  height: 327px;
+  padding-bottom: 0px;
+}
+
+#adress-main-block.block {
+  position: relative;
+}
+
+#adress-main-block.block > .title {
+  height: 30px;
+  width: 658px;
+  position: fixed;
+  margin-top:-2px;
+}
+
+#adress-main-block.block > .title h3{
+  width: 600px;
+}
+
+#adress-main-block .address-next-link-con {
+  position: relative;
+}
+
+#adress-main-block .address-next-link-con a{
+  left: 89%;
+  top: -24px;
+  position: absolute;
+  text-decoration: none;
+  color: #ff8822;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#confirm-main-block .order-items .item {
+  clear:both;
+}
+
+#confirm-main-block .order-items .item  span{
+  display: inline-block;
+}
+
+#confirm-main-block .order-items .item  span.food{
+  width:450px;
+}
+
+#confirm-main-block .order-items .item  span.operate{
+  float:right;
 }
 
 #fixed-top {
@@ -392,6 +466,10 @@ span.star .star-5-5 {
   background:#fff;
   width:960px;
   z-index: 20;
+}
+
+.address-address {
+  width: 300px;
 }
 
 #main {

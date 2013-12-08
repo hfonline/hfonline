@@ -12,5 +12,8 @@ return array(
     "Password" => "密码",
     "Login" => "登陆",
     "Here is food we suggestion today" => "今日最新营养餐",
-    "Pay now" => "付款"
+    "Pay now" => "付款",
+    "Filter" => "过滤",
+    "Next" => "下一步",
+    "Confirm your order please" => "请确认您的订单"
 );

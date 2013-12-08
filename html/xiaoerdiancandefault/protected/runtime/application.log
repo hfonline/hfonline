@@ -112,3 +112,28 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/index
 HTTP_REFERER=http://hfonline.local/index.php?r=site/page&view=about
 ---
+2013/12/07 15:15:33 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "address".' in /usr/local/yii/web/CController.php:878
+Stack trace:
+#0 /usr/local/yii/web/CController.php(782): CController->renderPartial('address', NULL, true)
+#1 /home/jackey/workspace/hfonline/html/xiaoerdiancandefault/protected/controllers/SiteController.php(113): CController->render('address')
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): SiteController->actionAddress()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('address')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('site/address')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/address
+---
+2013/12/07 23:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "confirm".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('confirm')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('confirm')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('site/confirm')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/confirm
+---
