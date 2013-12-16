@@ -137,3 +137,13 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/index.php?r=site/confirm
 ---
+2013/12/08 19:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "summary".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('summary')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('summary')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('site/summary')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/summary
+---

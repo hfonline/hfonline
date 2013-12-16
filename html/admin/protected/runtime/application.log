@@ -1,0 +1,236 @@
+2013/12/15 08:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('scripts')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('scripts')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/scripts/ad...')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/scripts/admin/App.js?_dc=1387068768422
+HTTP_REFERER=http://hfonlineadmin.local/food/add
+---
+2013/12/15 09:50:23 [error] [php] Undefined variable: action (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:22)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (22)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/15 09:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 09:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 09:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 09:57:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 11:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/extjs/ext--debug-all.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/extjs/e...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/extjs/ext--debug-all.js
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 11:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/extjs/ext--debug-all.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/extjs/e...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/extjs/ext--debug-all.js
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 11:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/extjs/ext-debug-all.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/extjs/e...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/extjs/ext-debug-all.js
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 13:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 13:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 13:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/15 14:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/admin/model/Food.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/admin/m...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/admin/model/Food.js?_dc=1387087211419
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387118391289
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387118475864
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387118648447
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387118741710
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387118824493
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/15 22:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387119011427
+HTTP_REFERER=http://hfonlineadmin.local/
+---
