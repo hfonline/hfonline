@@ -1491,6 +1491,7 @@ Ext.define('Ext.data.Model', {
      * @return {Ext.data.proxy.Proxy}
      */
     setProxy: function(proxy) {
+      console.log("HELLO");
         //make sure we have an Ext.data.proxy.Proxy object
         if (!proxy.isProxy) {
             if (typeof proxy === "string") {
@@ -1511,6 +1512,7 @@ Ext.define('Ext.data.Model', {
      * @return {Ext.data.proxy.Proxy} The proxy
      */
     getProxy: function() {
+      console.log("get proxy");
         return this.hasOwnProperty('proxy') ? this.proxy : this.self.getProxy();
     },
 

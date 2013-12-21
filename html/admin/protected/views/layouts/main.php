@@ -28,6 +28,7 @@
       Ext.Loader.setPath({
           'Ext.ux.desktop': 'scripts/admin/js',
           'Ext.ux.model': "scripts/admin/model",
+          'Ext.ux.store': "scripts/admin/store",
           MyDesktop: 'scripts/admin'
       });
       Ext.require('MyDesktop.App');

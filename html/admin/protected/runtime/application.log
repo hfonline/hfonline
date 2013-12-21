@@ -234,3 +234,1171 @@ Stack trace:
 REQUEST_URI=/food/update?_dc=1387119011427
 HTTP_REFERER=http://hfonlineadmin.local/
 ---
+2013/12/17 21:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 21:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/17 22:07:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 08:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/extjs/src/ux/store/Food.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/extjs/s...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/extjs/src/ux/store/Food.js?_dc=1387327058943
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 08:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/admin/model/food.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/admin/m...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/admin/model/food.js?_dc=1387327330117
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 08:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/admin/model/food.js".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/admin/m...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/admin/model/food.js?_dc=1387327379458
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 21:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 21:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 21:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 21:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387373951046
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 21:40:35 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(26): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(26): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374035605
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 21:41:07 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 21:41:53 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:42:17 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:42:19 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:42:59 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:43:00 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:43:01 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:43:02 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:43:37 [error] [php] Use of undefined constant Controller - assumed 'Controller' (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:25)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add?_dc=1387374067113
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (25)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 21:43:44 [error] [php] get_defined_functions() expects exactly 0 parameters, 1 given (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:25)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add?_dc=1387374067113
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (25)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 21:43:44 [error] [php] get_defined_functions() expects exactly 0 parameters, 1 given (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:25)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add?_dc=1387374067113
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (25)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 21:43:45 [error] [php] get_defined_functions() expects exactly 0 parameters, 1 given (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:25)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add?_dc=1387374067113
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (25)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 21:43:57 [error] [exception.CException] exception 'CException' with message 'FoodController and its behaviors do not have a method or closure named "getExtPostData".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): CComponent->__call('getExtPostData', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(25): FoodController->getExtPostData()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/add?_dc=1387374067113
+---
+2013/12/18 21:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387374346725
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 23:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('update')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('update')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/update')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/update?_dc=1387380268723
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 23:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:25:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hfonline.{{food}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{food}}`.
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (26)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:25:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{food}}" for active record class "FoodRecord" cannot be found in the database.' in /usr/local/yii/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /usr/local/yii/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(FoodRecord))
+#1 /usr/local/yii/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(26): CActiveRecord->__construct()
+#3 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionAdd()
+#4 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/yii/web/CWebApplication.php(282): CController->run('add')
+#8 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/add')
+#9 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/food/add?_dc=1387380351264
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/18 23:26:32 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:26:32 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:26:32 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:26:32 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:18 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:18 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:18 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:18 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:18 [error] [php] Missing argument 2 for YiiBase::t(), called in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php on line 64 and defined (/usr/local/yii/YiiBase.php:577)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/update?_dc=1387380978724
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (64)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:47 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:47 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:47 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:47 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:36:47 [error] [php] Missing argument 2 for YiiBase::t(), called in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php on line 64 and defined (/usr/local/yii/YiiBase.php:577)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/update?_dc=1387381007124
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (64)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:04 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:04 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:04 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:04 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:04 [error] [php] Illegal offset type in isset or empty (/usr/local/yii/i18n/CMessageSource.php:104)
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(64): t()
+#1 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionUpdate()
+#2 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#4 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#5 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#6 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/update?_dc=1387381024886
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (64)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:48 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:48 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:48 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:48 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:37:48 [error] [php] Illegal offset type in isset or empty (/usr/local/yii/i18n/CMessageSource.php:104)
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(65): t()
+#1 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionUpdate()
+#2 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#4 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#5 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#6 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/update?_dc=1387381068336
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (65)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:38:17 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:38:17 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:38:17 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:38:17 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:37 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:37 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:37 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:37 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:47 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:47 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:47 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:39:47 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/18 23:44:35 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:44:35 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:44:35 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:44:35 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:58:12 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:58:12 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:58:12 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:58:12 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:59:49 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:59:49 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:59:49 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/18 23:59:49 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:00:54 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:00:54 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:00:54 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:00:54 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:42 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:42 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:42 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:42 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:56 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:56 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:56 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:56 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:59 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:59 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:59 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:01:59 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:02:28 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:02:28 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:02:28 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:02:28 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:02:28 [error] [php] Missing argument 2 for Controller::responseJSON(), called in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php on line 34 and defined (/home/jackey/workspace/hfonline/html/admin/protected/components/Controller.php:28)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams()
+#1 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#2 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#3 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#4 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/add?_dc=1387382548127
+in /home/jackey/workspace/hfonline/html/admin/protected/components/Controller.php (28)
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (34)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:03:17 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:03:17 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:03:17 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:03:17 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:08:39 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:08:39 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:08:39 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:08:39 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (58)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:38 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:38 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:38 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:38 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:53 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:53 [warning] [application] Failed to set unsafe attribute "summary" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:53 [warning] [application] Failed to set unsafe attribute "star" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:17:53 [warning] [application] Failed to set unsafe attribute "description" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 00:23:55 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (59)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 21:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 21:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 21:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 21:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 21:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 21:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 22:04:10 [error] [php] Trying to get property of non-object (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:45)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/get?_dc=1387461849785&page=1&start=0&limit=25
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (45)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 22:04:19 [error] [php] Trying to get property of non-object (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:45)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/get
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (45)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 22:04:32 [error] [php] Trying to get property of non-object (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:46)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/food/get
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (46)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/19 22:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 22:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/19 22:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/20 21:27:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/edit.png".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('images/edit.png')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/edit.png
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 21:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/20 21:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/20 21:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/20 21:48:36 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/20 21:51:05 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/20 21:59:25 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/20 22:01:13 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_delete.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_delete.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_add.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_add.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/connect.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/connect.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_green.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_green.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/20 22:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_female.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_female.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/21 10:17:38 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:21:51 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:22:34 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:24:00 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (60)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:34:16 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:36:03 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:49:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 10:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 11:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 11:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 11:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/21 11:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('delete')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('delete')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/delete')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/delete?_dc=1387594894004
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/21 11:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('delete')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('delete')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/delete')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/delete?_dc=1387594899157
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/21 11:04:48 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "isPostRequest".' in /usr/local/yii/base/CComponent.php:266
+Stack trace:
+#0 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(88): CComponent->__call('isPostRequest', Array)
+#1 /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php(88): CHttpRequest->isPostRequest()
+#2 /usr/local/yii/web/actions/CInlineAction.php(49): FoodController->actionDelete()
+#3 /usr/local/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /usr/local/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /usr/local/yii/web/CWebApplication.php(282): CController->run('delete')
+#7 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/delete')
+#8 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/food/delete?_dc=1387595088866
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/21 11:05:52 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:05:59 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:49:32 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:51:08 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:51:19 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:51:47 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:51:59 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:52:06 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:55:36 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 11:57:12 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (61)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/21 13:16:07 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)

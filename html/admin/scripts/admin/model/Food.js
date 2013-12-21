@@ -21,15 +21,13 @@ Ext.define("Ext.ux.model.Food", {
     {
       name: 'star',
       typ: 'int',
-      defaultValue: 2
     },
     {
       name: 'status',
-      type: 'init',
-      defaultValue: 1
+      type: 'int',
     },
     {
-      name: 'content',
+      name: 'description',
       type: 'string'
     }
   ],
@@ -41,14 +39,19 @@ Ext.define("Ext.ux.model.Food", {
       root: "data",
     },
     writer: {
-      type: "ajax",
+      type: "json",
       writeAllFields: true,
     },
     api: {
-      create: "food/add",
-      update: "food/update",
-      read: "food/get",
-      destroy: "food/delete"
+      create: "/food/add",
+      update: "/food/update",
+      read: "/food/get",
+      destroy: "/food/delete"
+    },
+    listeners: {
+      exception: function (proxy, response, options) {
+        proxy.serverResponse = response;
+      }
     }
-  }
+  },
 });

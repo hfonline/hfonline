@@ -5027,7 +5027,7 @@ var noArgs = [],
 
         
         parseNamespace: function(namespace) {
-
+            
             var cache = this.namespaceParseCache,
                 parts,
                 rewrites,
@@ -5098,7 +5098,7 @@ var noArgs = [],
             }
 
             root[leaf] = value;
-
+            
             return root[leaf];
         },
 
