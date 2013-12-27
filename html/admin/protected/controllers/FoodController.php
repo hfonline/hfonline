@@ -110,4 +110,20 @@ class FoodController extends Controller{
       $this->responseError("Post method only allowed");
     }
   }
+  
+  public function actionUploadimage() {
+    $request = Yii::app()->getRequest();
+    if ($request->isPostRequest) {
+      $photo = $_FILES["photo"];
+      $food_id = $_POST["food_id"];
+      $mediaRecord = new MediaRecord();
+      $media_id = $mediaRecord->saveMedia($photo);
+      
+      print $media_id;
+    }
+  }
+  
+  public function actionTest() {
+    print "HELLO";
+  }
 }

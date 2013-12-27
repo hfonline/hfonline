@@ -9,7 +9,7 @@ Ext.define("MyDesktop.FoodTable", {
   },
   createWindow: function () {
     var desktop = this.app.getDesktop();
-    var win = desktop.getWindow('foodform');
+    var win = desktop.getWindow('foodtable');
     var foodStore = Ext.create("Ext.ux.store.FoodList");
     
     if (!win) {
@@ -141,6 +141,12 @@ Ext.define("MyDesktop.FoodTable", {
                     fieldLabel: "Summary",
                   },
                   {
+                    xtype: "filefield",
+                    name: 'photo',
+                    fieldLabel: "Photo",
+                    buttonText: "select photo..."
+                  },
+                  {
                     xtype: "htmleditor",
                     name: 'description',
                     fieldLabel: "Description",                    
@@ -179,6 +185,10 @@ Ext.define("MyDesktop.FoodTable", {
                   {
                     xtype: 'hidden',
                     name: 'uid',
+                  }, 
+                  {
+                    xtype: "hidden",
+                    name: "food_id"
                   }
                 ],
                 buttons: [{

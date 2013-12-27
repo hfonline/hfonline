@@ -1402,3 +1402,148 @@ in /home/jackey/workspace/hfonline/html/admin/index.php (13)
 2013/12/21 13:16:07 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
 in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
 in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:06:57 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (71)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/22 01:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/22 01:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/22 01:25:39 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:35:40 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (27)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "uploadimage".' in /usr/local/yii/web/CController.php:483
+Stack trace:
+#0 /usr/local/yii/web/CController.php(270): CController->missingAction('uploadimage')
+#1 /usr/local/yii/web/CWebApplication.php(282): CController->run('uploadimage')
+#2 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('food/uploadimag...')
+#3 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/jackey/workspace/hfonline/html/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/food/uploadimage
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/22 01:37:36 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (83)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:38:40 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (83)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 01:39:23 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (83)
+in /home/jackey/workspace/hfonline/html/admin/index.php (13)
+2013/12/22 02:24:13 [warning] [application] Failed to set unsafe attribute "food_id" of "FoodRecord".
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (83)
+in /home/jackey/workspace/hfonline/html/admin/index.php (15)
+2013/12/22 02:24:14 [error] [php] Undefined index: food_id (/home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php:118)
+Stack trace:
+#0 /usr/local/yii/web/CController.php(286): FoodController->runAction()
+#1 /usr/local/yii/web/CController.php(265): FoodController->runActionWithFilters()
+#2 /usr/local/yii/web/CWebApplication.php(282): FoodController->run()
+#3 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/jackey/workspace/hfonline/html/admin/index.php(15): CWebApplication->run()
+REQUEST_URI=/food/uploadimage
+in /home/jackey/workspace/hfonline/html/admin/protected/controllers/FoodController.php (118)
+in /home/jackey/workspace/hfonline/html/admin/index.php (15)
+2013/12/28 00:42:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 00:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 00:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_add.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_add.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_delete.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_delete.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/connect.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/connect.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_green.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_green.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scripts/shared/icons/fam/user_female.gif".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('scripts/shared/...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/scripts/shared/icons/fam/user_female.gif
+HTTP_REFERER=http://hfonlineadmin.local/
+---

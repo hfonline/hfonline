@@ -71,6 +71,12 @@ Ext.define("MyDesktop.FoodForm", {
                     fieldLabel: "Summary",
                   },
                   {
+                    xtype: "filefield",
+                    name: 'photo',
+                    fieldLabel: "Photo",
+                    buttonText: "select photo..."
+                  },
+                  {
                     xtype: "htmleditor",
                     name: 'description',
                     fieldLabel: "Description",                    
@@ -117,12 +123,23 @@ Ext.define("MyDesktop.FoodForm", {
                          var form = this.up('form').getForm();
                          var model = this.up('form').model;
                          if (form.isValid()) {
+                           
+                           // 保存 Record 
                            var record = form.getRecord();
                            record.set(form.getValues());
                            record.save({
                              success: function (model) {
                                var proxy = model.getProxy();
-                               Ext.Msg.alert("status", "Updated Success");
+                               
+                               // 上传文件
+                               form.loadRecord(model)
+                               form.submit({
+                                 url: 'food/uploadimage',
+                                 waitMsg: "Uploading photo",
+                                 sucess: function (fp, o) {
+                                   Ext.Msg.alert("Success", "Added Food success");
+                                 }
+                               });
                              },
                              failure: function (model) {
                                var proxy = model.getProxy();
