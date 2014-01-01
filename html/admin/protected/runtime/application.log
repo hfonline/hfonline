@@ -1547,3 +1547,618 @@ Stack trace:
 REQUEST_URI=/scripts/shared/icons/fam/user_female.gif
 HTTP_REFERER=http://hfonlineadmin.local/
 ---
+2013/12/28 08:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 08:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 08:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 09:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:53:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:53:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:53:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 10:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/delte.png".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('images/delte.pn...')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/delte.png
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 10:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:59:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:59:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 10:59:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:10:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/28 11:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:11:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:11:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/28 11:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/undefined
+HTTP_REFERER=http://hfonlineadmin.local/
+---
+2013/12/29 23:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/29 23:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/12/29 23:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/01/01 23:49:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/01/01 23:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/01/01 23:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /usr/local/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /usr/local/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/jackey/workspace/hfonline/html/admin/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

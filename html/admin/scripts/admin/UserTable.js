@@ -11,13 +11,13 @@ Ext.define("MyDesktop.UserTable", {
     var desktop = this.app.getDesktop();
     var win = desktop.getWindow("usertable");
     
-    var userstore = Ext.create("Ext.ux.store.User");
-    
     if (!win) {
+      var userstore = Ext.create("Ext.ux.store.User");
+      userstore.load();
       win = desktop.createWindow({
         title: "User Managment",
         id: "usertablelist",
-        width: "90%",
+        width: "60%",
         iconCls: "notepad",
         animCollapse: false,
         border: false,
@@ -27,15 +27,26 @@ Ext.define("MyDesktop.UserTable", {
           Ext.create("Ext.grid.Panel", {
             columns: [
               {header: "Name", dataIndex: "name"},
-              {header: "Email", dataIndex: "email"},
+              {header: "Email", dataIndex: "mail"},
               {header: "Adatar", dataIndex: "avadar", 
                 renderer: function (value) {
                   return "<img src='"+value+"' />";
                 }
               },
               {header: "Phone", dataIndex: "phone"},
-              {header: "Register", dataIndex: "created"},
-              {header: "Last login", dataaIndex: "lastlogin"},
+              {header: "Register", dataIndex: "created", renderer: function (value) {
+                var date = new Date(value * 1000);
+                return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
+              }},
+              {header: "Last login", dataaIndex: "lastlogin", renderer: function (value) {
+                if (!value) {
+                  return "Never login";
+                }
+                else {
+                  var date = new Date(value * 1000);
+                  return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
+                }
+              }},
               {
                 xtype: "actioncolumn",
                 header: "Action",
@@ -45,7 +56,7 @@ Ext.define("MyDesktop.UserTable", {
                       Ext.Msg.alert("Edit ?");
                     }
                   },
-                  {icon: "images/delte.png", tooltip: "Delete this user", 
+                  {icon: "images/delete.png", tooltip: "Delete this user", 
                     handler: function () {
                       Ext.Msg.alert("Delte ?");
                     }
@@ -67,5 +78,7 @@ Ext.define("MyDesktop.UserTable", {
         ]
       });
     }
+
+    return win;
   }
 });

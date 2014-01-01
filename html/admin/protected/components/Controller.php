@@ -21,10 +21,20 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
     
+    /**
+     * 返回错误到客户端
+     * @param type $message
+     */
     public function responseError($message) {
       $this->_renderjson($this->wrapperDataInRest(NULL, $message, TRUE));
     }
     
+    /**
+     * 返回数据到客户端
+     * @param array $data 返回的Table 数据
+     * @param type $message 返回的消息
+     * @param type $ext 额外的数据 如 total: 12
+     */
     public function responseJSON($data, $message, $ext = array()) {
       $this->_renderjson($this->wrapperDataInRest($data, $message, FALSE, $ext));
     }

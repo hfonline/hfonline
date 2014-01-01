@@ -10,9 +10,9 @@ Ext.define("MyDesktop.FoodTable", {
   createWindow: function () {
     var desktop = this.app.getDesktop();
     var win = desktop.getWindow('foodtable');
-    var foodStore = Ext.create("Ext.ux.store.FoodList");
     
     if (!win) {
+      var foodStore = Ext.create("Ext.ux.store.FoodList");
        win = desktop.createWindow({
           title: "Food Managment",
           id: "foodlist",

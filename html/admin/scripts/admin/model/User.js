@@ -11,11 +11,11 @@ Ext.define("Ext.ux.model.User", {
       minLength: 2
     }, 
     {
-      name: 'email',
+      name: 'mail',
       type: 'string',
     },
     {
-      name: 'password',
+      name: 'pass',
       type: 'string',
     },
     {

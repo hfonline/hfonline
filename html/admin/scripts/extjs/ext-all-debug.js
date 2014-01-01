@@ -43295,8 +43295,6 @@ Ext.define('Ext.data.AbstractStore', {
             me.implicitModel = true;
         }
 
-
-        
         me.setProxy(me.proxy || me.model.getProxy());
 
         if (!me.disableMetaChangeEvent) {

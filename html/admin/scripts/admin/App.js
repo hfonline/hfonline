@@ -24,7 +24,8 @@ Ext.define('MyDesktop.App', {
 
         'MyDesktop.Settings',
         "MyDesktop.FoodForm",
-        "MyDesktop.FoodTable"
+        "MyDesktop.FoodTable",
+        "MyDesktop.UserTable",
     ],
 
     init: function() {
@@ -44,6 +45,7 @@ Ext.define('MyDesktop.App', {
             new MyDesktop.BogusModule(),
             new MyDesktop.FoodForm(),
             new MyDesktop.FoodTable(),
+            new MyDesktop.UserTable(),
         ];
     },
 
@@ -64,8 +66,9 @@ Ext.define('MyDesktop.App', {
                     { name: 'Accordion Window', iconCls: 'accordion-shortcut', module: 'acc-win' },
                     { name: 'Notepad', iconCls: 'notepad-shortcut', module: 'notepad' },
                     { name: 'System Status', iconCls: 'cpu-shortcut', module: 'systemstatus'},
-                    {name: "Add Food", iconCls: "nodepad-shortcut", module: 'foodform'},
-                    {name: "Food Managment", iconCls: "nodepad-shortcut", module: 'foodtable'}
+                    {name: "Add Food", iconCls: "notepad-shortcut", module: 'foodform'},
+                    {name: "Food Managment", iconCls: "notepad-shortcut", module: 'foodtable'}, 
+                    {name: "User Managment", iconCls: "notepad-shortcut", module: "usertable"}
                 ]
             }),
 
