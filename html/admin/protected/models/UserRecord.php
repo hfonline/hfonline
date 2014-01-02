@@ -4,7 +4,7 @@ class UserRecord extends CActiveRecord {
   const  ACTIVE = 1;
   public $status = 1;
   public function primaryKey() {
-    return "user_id";
+    return "uid";
   }
   
   public function tableName() {

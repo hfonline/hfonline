@@ -1,0 +1,9 @@
+class_name: APIGuy
+modules:
+    enabled: [PhpBrowser, REST, APIHelper]
+    config:
+        PhpBrowser:
+            url: "http://hfonline.local/index.php"
+        REST:
+            url: "http://hfonline.local/index.php"
+        

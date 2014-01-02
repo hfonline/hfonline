@@ -1,0 +1,6 @@
+[2014-01-02 14:50:46] CreateUserCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-02 14:50:46] CreateUserCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-02 14:50:46] CreateUserCept.php.INFO: see response code is "200" [] []
+[2014-01-02 14:50:46] CreateUserCept.php.ALERT: Failed asserting that 500 matches expected '200'. [] []
+[2014-01-02 14:50:46] CreateUserCept.php.INFO: # FAILED # [] []
+[2014-01-02 14:50:46] CreateUserCept.php.INFO: PASSED [] []

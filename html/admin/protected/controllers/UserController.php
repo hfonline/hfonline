@@ -45,4 +45,8 @@ class UserController extends Controller {
   public function actionDelete() {
     
   }
+  
+  public function actionTest() {
+      return $this->responseError("error happend");
+  }
 }
