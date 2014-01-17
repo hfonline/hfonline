@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'小二点餐',
+	'name'=>'My Web Application',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -16,7 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-        "ext.YiiMailer.YiiMailer",
+		'ext.YiiMailer.YiiMailer',
 	),
 
 	'modules'=>array(
@@ -25,7 +25,7 @@ return array(
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'Enter Your Password Here',
-			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		*/
@@ -38,7 +38,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-
+		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -47,18 +47,24 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		// uncomment the following to use a MySQL database
+		*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=hfonline',
+			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+		),
+		// uncomment the following to use a MySQL database
+		/*
+		'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'admin',
+			'password' => '',
 			'charset' => 'utf8',
 		),
+		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
-			'errorAction'=>'site/error',
-		),
+            'errorAction'=>'site/error',
+        ),
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
@@ -74,18 +80,12 @@ return array(
 				*/
 			),
 		),
-        "sesson" => array(
-            "autoStart" => TRUE,
-            "sessionName" => "PHPSESSID"
-        ),
-        
 	),
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'jziwenchen@gmail.com',
+		'adminEmail'=>'webmaster@example.com',
 	),
-    'language'=>'zh-hans', 
 );

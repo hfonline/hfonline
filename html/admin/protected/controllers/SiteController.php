@@ -29,8 +29,13 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+      if (Yii::app()->user->getId()) {
         $this->pageTitle = Yii::t("strings", "小儿点餐 - 后台管理系统");
 		$this->render('index');
+      }
+      else {
+        return $this->redirect(array("user/loginform"));
+      }
 	}
 
 	/**

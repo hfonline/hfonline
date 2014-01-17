@@ -1,0 +1,302 @@
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:00:20] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:00:48] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"phone":"000000000","avatar":"","lastlogin":0,"mail":"jziwenchen@gmail.com","pass":"21232f297a57a5a743894a0e4a801fc3","name":"jziwenchen@gmail.com","created":1389981648,"updated":1389981648,"user_id":"5","status":1}}' contains "mail has existed already". [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:00:48] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:06:16] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:06:22] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:06:22] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:06:23] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:06:23] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:06:23] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:06:23] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"phone":"000000000","avatar":"","lastlogin":0,"role":1,"mail":"jziwenchen@gmail.com","pass":"21232f297a57a5a743894a0e4a801fc3","name":"jziwenchen@gmail.com","created":1389981982,"updated":1389981982,"user_id":"6","status":1}}' contains "mail has existed already". [] []
+[2014-01-18 02:06:23] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:06:23] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:06:25] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:06:57] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:07:02] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"phone":"000000000","avatar":"","lastlogin":0,"role":1,"mail":"jziwenchen@gmail.com","pass":"21232f297a57a5a743894a0e4a801fc3","name":"jziwenchen@gmail.com","created":1389982022,"updated":1389982022,"user_id":"7","status":1}}' contains "mail has existed already". [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:07:02] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:11:38] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that 'Array
+(
+    [phone] => 000000000
+    [avatar] => 
+    [lastlogin] => 1389982298
+    [role] => 1
+    [mail] => jziwenchen@gmail.com
+    [pass] => 21232f297a57a5a743894a0e4a801fc3
+    [name] => jziwenchen@gmail.com
+    [created] => 1389982298
+    [updated] => 1389982298
+    [user_id] => 
+    [status] => 1
+)
+' contains "mail has existed already". [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:11:38] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:12:16] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:12:16] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:12:16] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:12:16] UserCreateCept.php.ALERT: Failed asserting that 500 matches expected '200'. [] []
+[2014-01-18 02:12:16] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:12:16] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:12:28] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:12:28] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:12:28] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:12:28] UserCreateCept.php.ALERT: Failed asserting that 500 matches expected '200'. [] []
+[2014-01-18 02:12:28] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:12:28] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:12:44] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that 'Array
+(
+    [phone] => 000000000
+    [avatar] => 
+    [lastlogin] => 1389982364
+    [role] => 1
+    [mail] => jziwenchen@gmail.com
+    [pass] => 21232f297a57a5a743894a0e4a801fc3
+    [name] => jziwenchen@gmail.com
+    [created] => 1389982364
+    [updated] => 1389982364
+    [user_id] => 
+    [status] => 1
+)
+' contains "mail has existed already". [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:12:44] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:13:02] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '1Array
+(
+    [phone] => 000000000
+    [avatar] => 
+    [lastlogin] => 1389982382
+    [role] => 1
+    [mail] => jziwenchen@gmail.com
+    [pass] => 21232f297a57a5a743894a0e4a801fc3
+    [name] => jziwenchen@gmail.com
+    [created] => 1389982382
+    [updated] => 1389982382
+    [user_id] => 
+    [status] => 1
+)
+' contains "mail has existed already". [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:13:02] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:13:09] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:13:09] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:13:10] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:13:10] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:13:10] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '3Array
+(
+    [phone] => 000000000
+    [avatar] => 
+    [lastlogin] => 1389982389
+    [role] => 1
+    [mail] => jziwenchen@gmail.com
+    [pass] => 21232f297a57a5a743894a0e4a801fc3
+    [name] => jziwenchen@gmail.com
+    [created] => 1389982389
+    [updated] => 1389982389
+    [user_id] => 
+    [status] => 1
+)
+' contains "mail has existed already". [] []
+[2014-01-18 02:13:10] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:13:10] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:13:37] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"phone":"000000000","avatar":"","lastlogin":1389982417,"role":3,"mail":"jziwenchen@gmail.com","pass":"21232f297a57a5a743894a0e4a801fc3","name":"jziwenchen@gmail.com","created":1389982417,"updated":1389982417,"user_id":"8","status":1}}' contains "mail has existed already". [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:13:37] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:13:40] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:13:40] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:13:40] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:13:40] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:13:40] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: see response is json  [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:28:34] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"phone":"000000000","avatar":"","lastlogin":1389983314,"role":3,"mail":"jziwenchen@gmail.com","pass":"21232f297a57a5a743894a0e4a801fc3","name":"jziwenchen@gmail.com","created":1389983314,"updated":1389983314,"user_id":"9","status":1}}' contains "mail has existed already". [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:28:34] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:29:48] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:29:48] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:29:48] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:29:48] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:29:49] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '' contains "mail has existed already". [] []
+[2014-01-18 02:29:49] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:29:49] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:43:56] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '
+Fatal error: Call to a member function Connected() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php on line 1086
+
+Call Stack:
+    0.0001     332508   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0159    1940020   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0160    1940716   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0195    2152396   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0228    2571016   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0233    2612708   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0233    2612708   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0234    2612708   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0235    2613544   9. UserController->actionPost() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+    0.2003    5006496  10. CActiveRecord->save() /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php:40
+    0.2089    5012880  11. CActiveRecord->insert() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:806
+    0.3952    5022188  12. UserRecord->afterSave() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:1097
+    0.4313    5998152  13. YiiMailer->send() /home/jackey/workspace/hfonline/html/admin/protected/models/UserRecord.php:82
+    0.4350    6001604  14. PHPMailer->PostSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/YiiMailer.php:536
+    0.4350    6001604  15. PHPMailer->SmtpSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:881
+    0.4370    6226804  16. PHPMailer->SmtpConnect() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:1007
+
+' contains "mail has existed already". [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:43:56] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:45:39] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:45:39] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:45:39] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:45:39] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:45:39] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:45:43] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:45:43] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:45:44] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:45:44] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:45:44] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '
+Fatal error: Call to a member function Connected() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php on line 1086
+
+Call Stack:
+    0.0001     332508   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0152    1940020   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0153    1940716   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0186    2152396   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0216    2571016   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0221    2612708   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0221    2612708   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0221    2612708   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0222    2613544   9. UserController->actionPost() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+    0.2676    5006496  10. CActiveRecord->save() /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php:40
+    0.2781    5012880  11. CActiveRecord->insert() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:806
+    0.5112    5022188  12. UserRecord->afterSave() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:1097
+    0.5538    5998520  13. YiiMailer->send() /home/jackey/workspace/hfonline/html/admin/protected/models/UserRecord.php:82
+    0.5576    6001972  14. PHPMailer->PostSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/YiiMailer.php:536
+    0.5577    6001972  15. PHPMailer->SmtpSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:881
+    0.5596    6227176  16. PHPMailer->SmtpConnect() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:1007
+
+' contains "mail has existed already". [] []
+[2014-01-18 02:45:44] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:45:44] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:46:48] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:46:48] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:46:49] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:46:49] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:46:49] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:46:52] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that 'Array
+(
+    [host] => smtp.gmail.com
+    [username] => jziwenchen@gmail.com
+    [password] => lovexx1314
+    [port] => 465
+    [ssl] => 1
+)
+
+Fatal error: Call to a member function Connected() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php on line 1087
+
+Call Stack:
+    0.0001     332508   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0153    1940020   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0153    1940716   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0186    2152396   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0217    2571016   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0222    2612708   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0222    2612708   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0222    2612708   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0223    2613544   9. UserController->actionPost() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+    0.1048    5006496  10. CActiveRecord->save() /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php:40
+    0.1193    5012880  11. CActiveRecord->insert() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:806
+    0.2361    5022188  12. UserRecord->afterSave() /home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php:1097
+    0.2696    5999040  13. YiiMailer->send() /home/jackey/workspace/hfonline/html/admin/protected/models/UserRecord.php:82
+    0.2733    6002516  14. PHPMailer->PostSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/YiiMailer.php:537
+    0.2733    6002516  15. PHPMailer->SmtpSend() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:881
+    0.2751    6227784  16. PHPMailer->SmtpConnect() /home/jackey/workspace/hfonline/html/admin/protected/extensions/YiiMailer/PHPMailer/class.phpmailer.php:1007
+
+' contains "mail has existed already". [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:46:52] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:47:12] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:47:12] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:47:28] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:47:28] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:47:28] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '' contains "mail has existed already". [] []
+[2014-01-18 02:47:28] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:47:28] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:48:02] UserCreateCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 02:48:02] UserCreateCept.php.INFO: send post "user/post",{"mail":"jziwenchen@gmail.com","pass":"admin"} [] []
+[2014-01-18 02:48:16] UserCreateCept.php.INFO: see response code is "200" [] []
+[2014-01-18 02:48:16] UserCreateCept.php.INFO: see response contains "mail has existed already" [] []
+[2014-01-18 02:48:16] UserCreateCept.php.ALERT: REST response contains
+Failed asserting that '' contains "mail has existed already". [] []
+[2014-01-18 02:48:16] UserCreateCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:48:16] UserCreateCept.php.INFO: PASSED [] []

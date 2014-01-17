@@ -7,7 +7,11 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	/**
+  
+  private $_id = 0;
+  public $name = '';
+  public $pass = '';
+  /**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
 	 * are both 'demo'.
@@ -17,17 +21,26 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
+		$user = UserRecord::model()->findByAttributes(array("name" => $this->name));
+        if (!$user) {
+			$this->errorCode = self::ERROR_USERNAME_INVALID;
+        }
+        else  {
+          $pass = $user->pass;
+          if ($user->pass != md5($this->pass)) {
+			$this->errorCode = self::ERROR_PASSWORD_INVALID;
+          }
+          else {
+            $this->_id = $user->user_id;
+            $this->setState("user", $user);
 			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
+          }
+        }
+        
+        return !$this->errorCode;
 	}
+    
+    public function getId() {
+      return $this->_id;
+    }
 }

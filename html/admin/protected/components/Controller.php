@@ -22,6 +22,12 @@ class Controller extends CController
 	public $breadcrumbs=array();
     
     /**
+     *
+     * @var CHttpRequest
+     */
+    public $request = NULL;
+    
+    /**
      * 返回错误到客户端
      * @param type $message
      */

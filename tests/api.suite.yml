@@ -3,7 +3,9 @@ modules:
     enabled: [PhpBrowser, REST, APIHelper]
     config:
         PhpBrowser:
-            url: "http://hfonline.local/index.php"
+            url: "http://hfonlineadmin.local/index.php"
+            curl:
+              CURLOPT_COOKIE:"PHPSESSID=houhgnga0haj9mvl77mq2uabj0"
         REST:
-            url: "http://hfonline.local/index.php"
+            url: "http://hfonlineadmin.local/index.php"
         
