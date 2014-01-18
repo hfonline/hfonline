@@ -3,7 +3,7 @@ Ext.define("MyDesktop.UserTable", {
   id: "usertable",
   init: function () {
     this.launcher = {
-      text: "User Managment",
+      text: "会员管理",
       iconCls: "notepad"
     };
   },
@@ -15,7 +15,7 @@ Ext.define("MyDesktop.UserTable", {
       var userstore = Ext.create("Ext.ux.store.User");
       userstore.load();
       win = desktop.createWindow({
-        title: "User Managment",
+        title: "会员管理",
         id: "usertablelist",
         width: "60%",
         iconCls: "notepad",
@@ -51,12 +51,12 @@ Ext.define("MyDesktop.UserTable", {
                 xtype: "actioncolumn",
                 header: "Action",
                 items: [
-                  {icon: "images/edit.png", tooltip: 'Edit this user', 
+                  {icon: "/images/edit.png", tooltip: 'Edit this user', 
                     handler: function () {
                       Ext.Msg.alert("Edit ?");
                     }
                   },
-                  {icon: "images/delete.png", tooltip: "Delete this user", 
+                  {icon: "/images/delete.png", tooltip: "Delete this user", 
                     handler: function () {
                       Ext.Msg.alert("Delte ?");
                     }

@@ -50,7 +50,6 @@ class FoodController extends Controller{
       ));
       $foods = FoodRecord::model()->findAll($criteria);
       $data = array();
-      //print_r($foods);
       if ($foods) {
         foreach ($foods as $food) {
           $data[] = $food;

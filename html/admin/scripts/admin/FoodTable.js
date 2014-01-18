@@ -3,7 +3,7 @@ Ext.define("MyDesktop.FoodTable", {
   id: "foodtable",
   init: function () {
     this.launcher = {
-      text: "Food Managment",
+      text: "菜谱管理",
       iconCls: "nodepad"
     };
   },
@@ -14,7 +14,7 @@ Ext.define("MyDesktop.FoodTable", {
     if (!win) {
       var foodStore = Ext.create("Ext.ux.store.FoodList");
        win = desktop.createWindow({
-          title: "Food Managment",
+          title: "菜谱管理",
           id: "foodlist",
           width: "90%",
           iconCls: 'notepad',
@@ -48,7 +48,7 @@ Ext.define("MyDesktop.FoodTable", {
                   xtype: "actioncolumn",
                   items: [
                     {
-                      icon: "images/edit.png",
+                      icon: "/images/edit.png",
                       tooltip: "Edit this food",
                       handler: function (grid, rowindex, colindex) {
                         var record = grid.store.getAt(rowindex);
@@ -57,7 +57,7 @@ Ext.define("MyDesktop.FoodTable", {
                       },
                     },
                     {
-                      icon: "images/delete.png",
+                      icon: "/images/delete.png",
                       tooltip: "Delete this food",
                       handler: function (grid, rowindex, colindex) {
                         Ext.Msg.confirm("Delte food", "Are you sure delete ?", function (button) {

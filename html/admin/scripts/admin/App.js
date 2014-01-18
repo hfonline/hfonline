@@ -62,13 +62,12 @@ Ext.define('MyDesktop.App', {
             shortcuts: Ext.create('Ext.data.Store', {
                 model: 'Ext.ux.desktop.ShortcutModel',
                 data: [
-                    { name: 'Grid Window', iconCls: 'grid-shortcut', module: 'grid-win' },
-                    { name: 'Accordion Window', iconCls: 'accordion-shortcut', module: 'acc-win' },
-                    { name: 'Notepad', iconCls: 'notepad-shortcut', module: 'notepad' },
-                    { name: 'System Status', iconCls: 'cpu-shortcut', module: 'systemstatus'},
-                    {name: "Add Food", iconCls: "notepad-shortcut", module: 'foodform'},
-                    {name: "Food Managment", iconCls: "notepad-shortcut", module: 'foodtable'}, 
-                    {name: "User Managment", iconCls: "notepad-shortcut", module: "usertable"}
+                    //{ name: 'Grid Window', iconCls: 'grid-shortcut', module: 'grid-win' },
+                    //{ name: 'Accordion Window', iconCls: 'accordion-shortcut', module: 'acc-win' },
+                    //{ name: 'Notepad', iconCls: 'notepad-shortcut', module: 'notepad' },
+                    //{ name: 'System Status', iconCls: 'cpu-shortcut', module: 'systemstatus'},
+                    {name: "菜谱管理", iconCls: "notepad-shortcut", module: 'foodtable'}, 
+                    {name: "会员管理", iconCls: "notepad-shortcut", module: "usertable"}
                 ]
             }),
 
