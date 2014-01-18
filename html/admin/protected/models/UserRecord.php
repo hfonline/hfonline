@@ -2,6 +2,8 @@
 
 class UserRecord extends CActiveRecord {
   const ACTIVE = 1;
+  const DELETED = 3;
+  const DISABLED = 2;
   const ROLE_AUTH = 1;
   const ROLE_ORDER_MANAGER=2;
   const ROLE_ADMIN = 3;
@@ -67,21 +69,21 @@ class UserRecord extends CActiveRecord {
         // 0 就是从来没有登陆过
         "lastlogin" => time(), 
         "pass" => md5($this->getAttribute("pass")),
-        "role" => self::ROLE_ADMIN,
+        "role" => self::ROLE_AUTH,
     ));
     
     return TRUE;
   }
   
   public function afterSave() {
+    // 注册后，发送一封邮件
     $mailler = new YiiMailer();
     $mailler->setView("register");
     $mailler->setFrom("jziwenchen@gmail.com", "Jackey");
     $mailler->setTo("jziwenchen@gmail.com");
     $mailler->setSubject("Test Mail from Yii");
     $mailler->send();
-    print_r($mailler->getError());
-    die();
+    
     return parent::afterSave();
   }
 
@@ -100,6 +102,30 @@ class UserRecord extends CActiveRecord {
     return TRUE;
   }
   
+  public function findAllUserInRole($role) {
+    if (!$role) {
+      return array();
+    }
+    
+    if (!in_array($role, array(self::ROLE_AUTH, self::ROLE_ADMIN, self::ROLE_ORDER_MANAGER))) {
+      return array();
+    }
+    
+    $query = new CDbCriteria();
+    $query->addCondition("role = :role");
+    $query->params[":role"] = $role;
+    $query->params[":status"] = self::ACTIVE;
+    
+    return $this->findAll($query);
+  }
+  
+  /**
+   * 复写父级删除方法；用户涉及到的数据很多，比如表单等；删除用户 在后台做的处理其实是禁用用户
+   * @param type $v 主键值
+   */
+  public function deleteByPk($v) {
+    $data = array('status' => self::DELETED);
+    return $this->updateByPk($v, $data);
+  }
   
 }
-

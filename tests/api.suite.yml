@@ -5,7 +5,7 @@ modules:
         PhpBrowser:
             url: "http://hfonlineadmin.local/index.php"
             curl:
-              CURLOPT_COOKIE:"PHPSESSID=houhgnga0haj9mvl77mq2uabj0"
+              CURLOPT_COOKIE: "PHPSESSID=sl3v7d7cnq4v2mfhk1j0682521"
         REST:
             url: "http://hfonlineadmin.local/index.php"
         

@@ -22,6 +22,10 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 		$user = UserRecord::model()->findByAttributes(array("name" => $this->name));
+        if ($user && $user->status != UserRecord::ACTIVE) {
+          $this->errorCode = self::ERROR_UNKNOWN_IDENTITY;
+          return !$this->errorCode;
+        }
         if (!$user) {
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
         }

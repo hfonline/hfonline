@@ -34,6 +34,9 @@ class LoginForm extends CFormModel {
       else if ($err == CUserIdentity::ERROR_USERNAME_INVALID) {
         $this->addError("pass", "user or password wrong");
       }
+      else {
+        $this->addError("name", "system unknown error");
+      }
     }
     
     return FALSE;

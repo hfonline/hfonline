@@ -31,7 +31,7 @@ class FoodController extends Controller{
         $this->responseError(implode(",", $error));
       }
       else {
-        $this->responseJSON($data, Yii::t("strings", "User saved"));
+        $this->responseJSON($data, Yii::t("strings", "food saved"));
       }
     }
   }

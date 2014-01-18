@@ -300,3 +300,1628 @@ Failed asserting that '' contains "mail has existed already". [] []
 Failed asserting that '' contains "mail has existed already". [] []
 [2014-01-18 02:48:16] UserCreateCept.php.INFO: # FAILED # [] []
 [2014-01-18 02:48:16] UserCreateCept.php.INFO: PASSED [] []
+[2014-01-18 02:55:29] UserListCept.php.INFO: send get "user/list" [] []
+[2014-01-18 02:55:30] UserListCept.php.INFO: see response code is 200 [] []
+[2014-01-18 02:55:30] UserListCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 02:55:30] UserListCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:55:30] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:55:50] UserListCept.php.INFO: send get "user/list" [] []
+[2014-01-18 02:55:50] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:55:50] UserListCept.php.ALERT: REST response contains
+Failed asserting that '<!DOCTYPE html PUBLIC
+	"-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>PHP notice</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body {
+	font: normal 9pt "Verdana";
+	color: #000;
+	background: #fff;
+}
+
+h1 {
+	font: normal 18pt "Verdana";
+	color: #f00;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font: normal 14pt "Verdana";
+	color: #800000;
+	margin-bottom: .5em;
+}
+
+h3 {
+	font: bold 11pt "Verdana";
+}
+
+pre {
+	font: normal 11pt Menlo, Consolas, "Lucida Console", Monospace;
+}
+
+pre span.error {
+	display: block;
+	background: #fce3e3;
+}
+
+pre span.ln {
+	color: #999;
+	padding-right: 0.5em;
+	border-right: 1px solid #ccc;
+}
+
+pre span.error-ln {
+	font-weight: bold;
+}
+
+.container {
+	margin: 1em 4em;
+}
+
+.version {
+	color: gray;
+	font-size: 8pt;
+	border-top: 1px solid #aaa;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+
+.message {
+	color: #000;
+	padding: 1em;
+	font-size: 11pt;
+	background: #f3f3f3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	line-height: 160%;
+}
+
+.source {
+	margin-bottom: 1em;
+}
+
+.code pre {
+	background-color: #ffe;
+	margin: 0.5em 0;
+	padding: 0.5em;
+	line-height: 125%;
+	border: 1px solid #eee;
+}
+
+.source .file {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.traces {
+	margin: 2em 0;
+}
+
+.trace {
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+
+.trace.app {
+	border: 1px dashed #c00;
+}
+
+.trace .number {
+	text-align: right;
+	width: 2em;
+	padding: 0.5em;
+}
+
+.trace .content {
+	padding: 0.5em;
+}
+
+.trace .plus,
+.trace .minus {
+	display:inline;
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #000;
+	color:#000;
+	font-size:10px;
+	line-height:10px;
+	margin:0;
+	padding:0 1px;
+	width:10px;
+	height:10px;
+}
+
+.trace.collapsed .minus,
+.trace.expanded .plus,
+.trace.collapsed pre {
+	display: none;
+}
+
+.trace-file {
+	cursor: pointer;
+	padding: 0.2em;
+}
+
+.trace-file:hover {
+	background: #f0ffff;
+}
+/*]]>*/
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h1>PHP notice</h1>
+
+	<p class="message">
+		Undefined variable: role	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php(23)</p>
+		<div class="code"><pre><span class="ln">11</span>    */
+<span class="ln">12</span>   public function actionList() {
+<span class="ln">13</span>     $request = Yii::app()-&gt;getRequest();
+<span class="ln">14</span>     
+<span class="ln">15</span>     if ($request-&gt;isPostRequest) {
+<span class="ln">16</span>       return $this-&gt;responseError(&quot;http error&quot;);
+<span class="ln">17</span>     }
+<span class="ln">18</span>     
+<span class="ln">19</span>     $type = $request-&gt;getParam(&quot;role&quot;);
+<span class="ln">20</span>     // 列表可以有管理员列表和普通会员列表
+<span class="ln">21</span>     $userAr = new UserRecord();
+<span class="ln">22</span>     
+<span class="error"><span class="ln error-ln">23</span>     $res = $userAr-&gt;findAllUserInRole($role);
+</span><span class="ln">24</span>     $retdata = array();
+<span class="ln">25</span>     
+<span class="ln">26</span>     foreach ($res as $user) {
+<span class="ln">27</span>       $retdata[] = $user-&gt;attributes;
+<span class="ln">28</span>     }
+<span class="ln">29</span>     
+<span class="ln">30</span>     $this-&gt;responseJSON($retdata, &quot;success&quot;, array(&quot;total&quot; =&gt; count($res)));
+<span class="ln">31</span>   }
+<span class="ln">32</span>   
+<span class="ln">33</span>   /**
+<span class="ln">34</span>    * 新用户注册
+<span class="ln">35</span>    */
+</pre></div>	</div>
+
+	<div class="traces">
+		<h2>Stack Trace</h2>
+				<table style="width:100%;">
+						<tr class="trace core collapsed">
+			<td class="number">
+				#0			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php(49): <strong>UserController</strong>-><strong>actionList</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">44</span>         $controller=$this-&gt;getController();
+<span class="ln">45</span>         $method=new ReflectionMethod($controller, $methodName);
+<span class="ln">46</span>         if($method-&gt;getNumberOfParameters()&gt;0)
+<span class="ln">47</span>             return $this-&gt;runWithParamsInternal($controller, $method, $params);
+<span class="ln">48</span>         else
+<span class="error"><span class="ln error-ln">49</span>             return $controller-&gt;$methodName();
+</span><span class="ln">50</span>     }
+<span class="ln">51</span> 
+<span class="ln">52</span> }
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#1			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(308): <strong>CInlineAction</strong>-><strong>runWithParams</strong>(array())				</div>
+
+				<div class="code"><pre><span class="ln">303</span>     {
+<span class="ln">304</span>         $priorAction=$this-&gt;_action;
+<span class="ln">305</span>         $this-&gt;_action=$action;
+<span class="ln">306</span>         if($this-&gt;beforeAction($action))
+<span class="ln">307</span>         {
+<span class="error"><span class="ln error-ln">308</span>             if($action-&gt;runWithParams($this-&gt;getActionParams())===false)
+</span><span class="ln">309</span>                 $this-&gt;invalidActionParams($action);
+<span class="ln">310</span>             else
+<span class="ln">311</span>                 $this-&gt;afterAction($action);
+<span class="ln">312</span>         }
+<span class="ln">313</span>         $this-&gt;_action=$priorAction;
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#2			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(286): <strong>CController</strong>-><strong>runAction</strong>(CInlineAction)				</div>
+
+				<div class="code"><pre><span class="ln">281</span>      * @see runAction
+<span class="ln">282</span>      */
+<span class="ln">283</span>     public function runActionWithFilters($action,$filters)
+<span class="ln">284</span>     {
+<span class="ln">285</span>         if(empty($filters))
+<span class="error"><span class="ln error-ln">286</span>             $this-&gt;runAction($action);
+</span><span class="ln">287</span>         else
+<span class="ln">288</span>         {
+<span class="ln">289</span>             $priorAction=$this-&gt;_action;
+<span class="ln">290</span>             $this-&gt;_action=$action;
+<span class="ln">291</span>             CFilterChain::create($this,$action,$filters)-&gt;run();
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#3			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(265): <strong>CController</strong>-><strong>runActionWithFilters</strong>(CInlineAction, array())				</div>
+
+				<div class="code"><pre><span class="ln">260</span>         {
+<span class="ln">261</span>             if(($parent=$this-&gt;getModule())===null)
+<span class="ln">262</span>                 $parent=Yii::app();
+<span class="ln">263</span>             if($parent-&gt;beforeControllerAction($this,$action))
+<span class="ln">264</span>             {
+<span class="error"><span class="ln error-ln">265</span>                 $this-&gt;runActionWithFilters($action,$this-&gt;filters());
+</span><span class="ln">266</span>                 $parent-&gt;afterControllerAction($this,$action);
+<span class="ln">267</span>             }
+<span class="ln">268</span>         }
+<span class="ln">269</span>         else
+<span class="ln">270</span>             $this-&gt;missingAction($actionID);
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#4			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php(282): <strong>CController</strong>-><strong>run</strong>(&quot;list&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">277</span>         {
+<span class="ln">278</span>             list($controller,$actionID)=$ca;
+<span class="ln">279</span>             $oldController=$this-&gt;_controller;
+<span class="ln">280</span>             $this-&gt;_controller=$controller;
+<span class="ln">281</span>             $controller-&gt;init();
+<span class="error"><span class="ln error-ln">282</span>             $controller-&gt;run($actionID);
+</span><span class="ln">283</span>             $this-&gt;_controller=$oldController;
+<span class="ln">284</span>         }
+<span class="ln">285</span>         else
+<span class="ln">286</span>             throw new CHttpException(404,Yii::t(&#039;yii&#039;,&#039;Unable to resolve the request &quot;{route}&quot;.&#039;,
+<span class="ln">287</span>                 array(&#039;{route}&#039;=&gt;$route===&#039;&#039;?$this-&gt;defaultController:$route)));
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#5			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php(141): <strong>CWebApplication</strong>-><strong>runController</strong>(&quot;user/list&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">136</span>             foreach(array_splice($this-&gt;catchAllRequest,1) as $name=&gt;$value)
+<span class="ln">137</span>                 $_GET[$name]=$value;
+<span class="ln">138</span>         }
+<span class="ln">139</span>         else
+<span class="ln">140</span>             $route=$this-&gt;getUrlManager()-&gt;parseUrl($this-&gt;getRequest());
+<span class="error"><span class="ln error-ln">141</span>         $this-&gt;runController($route);
+</span><span class="ln">142</span>     }
+<span class="ln">143</span> 
+<span class="ln">144</span>     /**
+<span class="ln">145</span>      * Registers the core application components.
+<span class="ln">146</span>      * This method overrides the parent implementation by registering additional core components.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#6			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CApplication.php(180): <strong>CWebApplication</strong>-><strong>processRequest</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">175</span>     public function run()
+<span class="ln">176</span>     {
+<span class="ln">177</span>         if($this-&gt;hasEventHandler(&#039;onBeginRequest&#039;))
+<span class="ln">178</span>             $this-&gt;onBeginRequest(new CEvent($this));
+<span class="ln">179</span>         register_shutdown_function(array($this,&#039;end&#039;),0,false);
+<span class="error"><span class="ln error-ln">180</span>         $this-&gt;processRequest();
+</span><span class="ln">181</span>         if($this-&gt;hasEventHandler(&#039;onEndRequest&#039;))
+<span class="ln">182</span>             $this-&gt;onEndRequest(new CEvent($this));
+<span class="ln">183</span>     }
+<span class="ln">184</span> 
+<span class="ln">185</span>     /**
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#7			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/admin/index.php(15): <strong>CApplication</strong>-><strong>run</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">10</span> defined(&#039;YII_TRACE_LEVEL&#039;) or define(&#039;YII_TRACE_LEVEL&#039;,3);
+<span class="ln">11</span> 
+<span class="ln">12</span> define(&quot;ROOT_PATH&quot;, dirname(__FILE__));
+<span class="ln">13</span> 
+<span class="ln">14</span> require_once($yii);
+<span class="error"><span class="ln error-ln">15</span> Yii::createWebApplication($config)-&gt;run();
+</span></pre></div>			</td>
+		</tr>
+				</table>
+	</div>
+
+	<div class="version">
+		2014-01-18 02:55:50 Apache/2.2.22 (Ubuntu) <a href="http://www.yiiframework.com/">Yii Framework</a>/1.1.14	</div>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var traceReg = new RegExp("(^|\\s)trace-file(\\s|$)");
+var collapsedReg = new RegExp("(^|\\s)collapsed(\\s|$)");
+
+var e = document.getElementsByTagName("div");
+for(var j=0,len=e.length;j<len;j++){
+	if(traceReg.test(e[j].className)){
+		e[j].onclick = function(){
+			var trace = this.parentNode.parentNode;
+			if(collapsedReg.test(trace.className))
+				trace.className = trace.className.replace("collapsed", "expanded");
+			else
+				trace.className = trace.className.replace("expanded", "collapsed");
+		}
+	}
+}
+/*]]>*/
+</script>
+
+</body>
+</html>
+' contains ""success":true". [] []
+[2014-01-18 02:55:50] UserListCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:55:50] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:56:28] UserListCept.php.INFO: send get "user/list" [] []
+[2014-01-18 02:56:28] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:56:28] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:56:49] UserListCept.php.INFO: send get "user/list",{"role":1} [] []
+[2014-01-18 02:56:50] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:56:50] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:57:18] UserListCept.php.INFO: send get "user/list",{"role":1} [] []
+[2014-01-18 02:57:18] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:57:18] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:57:35] UserListCept.php.INFO: send get "user/list",{"role":1} [] []
+[2014-01-18 02:57:36] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:57:36] UserListCept.php.ALERT: REST response contains
+Failed asserting that '1' contains ""success":true". [] []
+[2014-01-18 02:57:36] UserListCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:57:36] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:58:31] UserListCept.php.INFO: send get "user/list",{"role":1} [] []
+[2014-01-18 02:58:31] UserListCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 02:58:31] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:58:53] UserListCept.php.INFO: send get "user/list",{"role":1} [] []
+[2014-01-18 02:58:54] UserListCept.php.INFO: see response contains "jziwenchen@gmail.com" [] []
+[2014-01-18 02:58:54] UserListCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":[],"total":0}' contains "jziwenchen@gmail.com". [] []
+[2014-01-18 02:58:54] UserListCept.php.INFO: # FAILED # [] []
+[2014-01-18 02:58:54] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 02:59:14] UserListCept.php.INFO: send get "user/list",{"role":3} [] []
+[2014-01-18 02:59:14] UserListCept.php.INFO: see response contains "jziwenchen@gmail.com" [] []
+[2014-01-18 02:59:14] UserListCept.php.INFO: PASSED [] []
+[2014-01-18 03:06:06] UserDeleteCept.php.INFO: send post "user/delete",{"user_id":15} [] []
+[2014-01-18 03:06:06] UserDeleteCept.php.INFO: see response code is 200 [] []
+[2014-01-18 03:06:06] UserDeleteCept.php.INFO: see response is json  [] []
+[2014-01-18 03:06:06] UserDeleteCept.php.INFO: see response contains "success" [] []
+[2014-01-18 03:06:06] UserDeleteCept.php.INFO: PASSED [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.INFO: send post "user/delete",{"user_id":15} [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.INFO: see response code is 200 [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.INFO: see response contains "success" [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.ALERT: REST response contains
+Failed asserting that '15' contains "success". [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.INFO: # FAILED # [] []
+[2014-01-18 03:07:01] UserDeleteCept.php.INFO: PASSED [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.INFO: send post "user/delete",{"user_id":15} [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.INFO: see response code is 200 [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.INFO: see response contains "success" [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.ALERT: REST response contains
+Failed asserting that 'UserRecord Object
+(
+    [status] => 1
+    [_new:CActiveRecord:private] => 
+    [_attributes:CActiveRecord:private] => Array
+        (
+            [user_id] => 15
+            [name] => jziwenchen@gmail.com
+            [pass] => 21232f297a57a5a743894a0e4a801fc3
+            [mail] => jziwenchen@gmail.com
+            [created] => 1389984483
+            [updated] => 1389984483
+            [phone] => 000000000
+            [avatar] => 
+            [lastlogin] => 1389984483
+            [role] => 3
+        )
+
+    [_related:CActiveRecord:private] => Array
+        (
+        )
+
+    [_c:CActiveRecord:private] => 
+    [_pk:CActiveRecord:private] => 15
+    [_alias:CActiveRecord:private] => t
+    [_errors:CModel:private] => Array
+        (
+        )
+
+    [_validators:CModel:private] => 
+    [_scenario:CModel:private] => update
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+' contains "success". [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.INFO: # FAILED # [] []
+[2014-01-18 03:07:22] UserDeleteCept.php.INFO: PASSED [] []
+[2014-01-18 03:08:44] UserDeleteCept.php.INFO: send post "user/delete",{"user_id":15} [] []
+[2014-01-18 03:08:44] UserDeleteCept.php.INFO: see response code is 200 [] []
+[2014-01-18 03:08:44] UserDeleteCept.php.INFO: see response contains "success" [] []
+[2014-01-18 03:08:44] UserDeleteCept.php.INFO: PASSED [] []
+[2014-01-18 04:02:02] UserAddAddressCept.php.INFO: send post "useraddaddress",["" [] []
+[2014-01-18 04:02:02] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:02:02] UserAddAddressCept.php.ALERT: Failed asserting that 404 matches expected 200. [] []
+[2014-01-18 04:02:02] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:02:02] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:02:19] UserAddAddressCept.php.INFO: send post "useraddaddress",{"address":"hello world"} [] []
+[2014-01-18 04:02:19] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:02:19] UserAddAddressCept.php.ALERT: Failed asserting that 404 matches expected 200. [] []
+[2014-01-18 04:02:19] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:02:19] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:03:17] UserAddAddressCept.php.INFO: send post "addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:03:17] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:03:17] UserAddAddressCept.php.ALERT: Failed asserting that 404 matches expected 200. [] []
+[2014-01-18 04:03:17] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:03:17] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:03:40] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:03:40] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:03:41] UserAddAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 04:03:41] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:03:41] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:12:04] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:12:04] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:12:04] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:12:04] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:12:04] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:12:17] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:12:18] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:12:18] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:12:43] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:12:43] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:12:43] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:12:43] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:12:43] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "success". [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:15:28] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:15:36] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:15:36] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:15:36] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:15:36] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:15:36] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "success". [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:16:06] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:16:42] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:16:42] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:16:42] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:16:42] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:16:42] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "success". [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:17:14] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'Array
+(
+    [user_id] => 
+    [address] => hello world
+    [datetime] => 1389989860
+)
+' contains "success". [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:17:40] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:17:52] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:17:52] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:17:52] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:17:52] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:17:52] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:18:19] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:18:20] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:18:20] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:18:20] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:18:20] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:18:38] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:18:38] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:18:38] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:18:38] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:18:38] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'RULES' contains "success". [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:18:58] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:20:33] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:20:33] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:20:33] UserAddAddressCept.php.ALERT: Failed asserting that 500 matches expected 200. [] []
+[2014-01-18 04:20:33] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:20:33] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:21:06] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:21:06] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:21:06] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '<!DOCTYPE html PUBLIC
+	"-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>PHP warning</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body {
+	font: normal 9pt "Verdana";
+	color: #000;
+	background: #fff;
+}
+
+h1 {
+	font: normal 18pt "Verdana";
+	color: #f00;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font: normal 14pt "Verdana";
+	color: #800000;
+	margin-bottom: .5em;
+}
+
+h3 {
+	font: bold 11pt "Verdana";
+}
+
+pre {
+	font: normal 11pt Menlo, Consolas, "Lucida Console", Monospace;
+}
+
+pre span.error {
+	display: block;
+	background: #fce3e3;
+}
+
+pre span.ln {
+	color: #999;
+	padding-right: 0.5em;
+	border-right: 1px solid #ccc;
+}
+
+pre span.error-ln {
+	font-weight: bold;
+}
+
+.container {
+	margin: 1em 4em;
+}
+
+.version {
+	color: gray;
+	font-size: 8pt;
+	border-top: 1px solid #aaa;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+
+.message {
+	color: #000;
+	padding: 1em;
+	font-size: 11pt;
+	background: #f3f3f3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	line-height: 160%;
+}
+
+.source {
+	margin-bottom: 1em;
+}
+
+.code pre {
+	background-color: #ffe;
+	margin: 0.5em 0;
+	padding: 0.5em;
+	line-height: 125%;
+	border: 1px solid #eee;
+}
+
+.source .file {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.traces {
+	margin: 2em 0;
+}
+
+.trace {
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+
+.trace.app {
+	border: 1px dashed #c00;
+}
+
+.trace .number {
+	text-align: right;
+	width: 2em;
+	padding: 0.5em;
+}
+
+.trace .content {
+	padding: 0.5em;
+}
+
+.trace .plus,
+.trace .minus {
+	display:inline;
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #000;
+	color:#000;
+	font-size:10px;
+	line-height:10px;
+	margin:0;
+	padding:0 1px;
+	width:10px;
+	height:10px;
+}
+
+.trace.collapsed .minus,
+.trace.expanded .plus,
+.trace.collapsed pre {
+	display: none;
+}
+
+.trace-file {
+	cursor: pointer;
+	padding: 0.2em;
+}
+
+.trace-file:hover {
+	background: #f0ffff;
+}
+/*]]>*/
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h1>PHP warning</h1>
+
+	<p class="message">
+		array_slice() expects parameter 1 to be array, string given	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/framework/base/CModel.php(287)</p>
+		<div class="code"><pre><span class="ln">275</span>     /**
+<span class="ln">276</span>      * Creates validator objects based on the specification in {@link rules}.
+<span class="ln">277</span>      * This method is mainly used internally.
+<span class="ln">278</span>      * @throws CException if current class has an invalid validation rule
+<span class="ln">279</span>      * @return CList validators built based on {@link rules()}.
+<span class="ln">280</span>      */
+<span class="ln">281</span>     public function createValidators()
+<span class="ln">282</span>     {
+<span class="ln">283</span>         $validators=new CList;
+<span class="ln">284</span>         foreach($this-&gt;rules() as $rule)
+<span class="ln">285</span>         {
+<span class="ln">286</span>             if(isset($rule[0],$rule[1]))  // attributes, validator name
+<span class="error"><span class="ln error-ln">287</span>                 $validators-&gt;add(CValidator::createValidator($rule[1],$this,$rule[0],array_slice($rule,2)));
+</span><span class="ln">288</span>             else
+<span class="ln">289</span>                 throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.&#039;,
+<span class="ln">290</span>                     array(&#039;{class}&#039;=&gt;get_class($this))));
+<span class="ln">291</span>         }
+<span class="ln">292</span>         return $validators;
+<span class="ln">293</span>     }
+<span class="ln">294</span> 
+<span class="ln">295</span>     /**
+<span class="ln">296</span>      * Returns a value indicating whether the attribute is required.
+<span class="ln">297</span>      * This is determined by checking if the attribute is associated with a
+<span class="ln">298</span>      * {@link CRequiredValidator} validation rule in the current {@link scenario}.
+<span class="ln">299</span>      * @param string $attribute attribute name
+</pre></div>	</div>
+
+	<div class="traces">
+		<h2>Stack Trace</h2>
+				<table style="width:100%;">
+						<tr class="trace core collapsed">
+			<td class="number">
+				#0			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CModel.php(287): <strong>array_slice</strong>(&quot;userExist&quot;, 2)				</div>
+
+				<div class="code"><pre><span class="ln">282</span>     {
+<span class="ln">283</span>         $validators=new CList;
+<span class="ln">284</span>         foreach($this-&gt;rules() as $rule)
+<span class="ln">285</span>         {
+<span class="ln">286</span>             if(isset($rule[0],$rule[1]))  // attributes, validator name
+<span class="error"><span class="ln error-ln">287</span>                 $validators-&gt;add(CValidator::createValidator($rule[1],$this,$rule[0],array_slice($rule,2)));
+</span><span class="ln">288</span>             else
+<span class="ln">289</span>                 throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.&#039;,
+<span class="ln">290</span>                     array(&#039;{class}&#039;=&gt;get_class($this))));
+<span class="ln">291</span>         }
+<span class="ln">292</span>         return $validators;
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#1			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CModel.php(260): <strong>CModel</strong>-><strong>createValidators</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">255</span>      * @return array the validators applicable to the current {@link scenario}.
+<span class="ln">256</span>      */
+<span class="ln">257</span>     public function getValidators($attribute=null)
+<span class="ln">258</span>     {
+<span class="ln">259</span>         if($this-&gt;_validators===null)
+<span class="error"><span class="ln error-ln">260</span>             $this-&gt;_validators=$this-&gt;createValidators();
+</span><span class="ln">261</span> 
+<span class="ln">262</span>         $validators=array();
+<span class="ln">263</span>         $scenario=$this-&gt;getScenario();
+<span class="ln">264</span>         foreach($this-&gt;_validators as $validator)
+<span class="ln">265</span>         {
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#2			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CModel.php(547): <strong>CModel</strong>-><strong>getValidators</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">542</span>      */
+<span class="ln">543</span>     public function getSafeAttributeNames()
+<span class="ln">544</span>     {
+<span class="ln">545</span>         $attributes=array();
+<span class="ln">546</span>         $unsafe=array();
+<span class="error"><span class="ln error-ln">547</span>         foreach($this-&gt;getValidators() as $validator)
+</span><span class="ln">548</span>         {
+<span class="ln">549</span>             if(!$validator-&gt;safe)
+<span class="ln">550</span>             {
+<span class="ln">551</span>                 foreach($validator-&gt;attributes as $name)
+<span class="ln">552</span>                     $unsafe[]=$name;
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#3			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CModel.php(468): <strong>CModel</strong>-><strong>getSafeAttributeNames</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">463</span>      */
+<span class="ln">464</span>     public function setAttributes($values,$safeOnly=true)
+<span class="ln">465</span>     {
+<span class="ln">466</span>         if(!is_array($values))
+<span class="ln">467</span>             return;
+<span class="error"><span class="ln error-ln">468</span>         $attributes=array_flip($safeOnly ? $this-&gt;getSafeAttributeNames() : $this-&gt;attributeNames());
+</span><span class="ln">469</span>         foreach($values as $name=&gt;$value)
+<span class="ln">470</span>         {
+<span class="ln">471</span>             if(isset($attributes[$name]))
+<span class="ln">472</span>                 $this-&gt;$name=$value;
+<span class="ln">473</span>             elseif($safeOnly)
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#4			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CComponent.php(152): <strong>CModel</strong>-><strong>setAttributes</strong>(array(&quot;user_id&quot; =&gt; null, &quot;address&quot; =&gt; &quot;hello world&quot;, &quot;datetime&quot; =&gt; 1389990066))				</div>
+
+				<div class="code"><pre><span class="ln">147</span>      */
+<span class="ln">148</span>     public function __set($name,$value)
+<span class="ln">149</span>     {
+<span class="ln">150</span>         $setter=&#039;set&#039;.$name;
+<span class="ln">151</span>         if(method_exists($this,$setter))
+<span class="error"><span class="ln error-ln">152</span>             return $this-&gt;$setter($value);
+</span><span class="ln">153</span>         elseif(strncasecmp($name,&#039;on&#039;,2)===0 &amp;&amp; method_exists($this,$name))
+<span class="ln">154</span>         {
+<span class="ln">155</span>             // duplicating getEventHandlers() here for performance
+<span class="ln">156</span>             $name=strtolower($name);
+<span class="ln">157</span>             if(!isset($this-&gt;_e[$name]))
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#5			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/db/ar/CActiveRecord.php(161): <strong>CComponent</strong>-><strong>__set</strong>(&quot;attributes&quot;, array(&quot;user_id&quot; =&gt; null, &quot;address&quot; =&gt; &quot;hello world&quot;, &quot;datetime&quot; =&gt; 1389990066))				</div>
+
+				<div class="code"><pre><span class="ln">156</span>         if($this-&gt;setAttribute($name,$value)===false)
+<span class="ln">157</span>         {
+<span class="ln">158</span>             if(isset($this-&gt;getMetaData()-&gt;relations[$name]))
+<span class="ln">159</span>                 $this-&gt;_related[$name]=$value;
+<span class="ln">160</span>             else
+<span class="error"><span class="ln error-ln">161</span>                 parent::__set($name,$value);
+</span><span class="ln">162</span>         }
+<span class="ln">163</span>     }
+<span class="ln">164</span> 
+<span class="ln">165</span>     /**
+<span class="ln">166</span>      * Checks if a property value is null.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#6			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/admin/protected/models/AddressRecord.php(65): <strong>CActiveRecord</strong>-><strong>__set</strong>(&quot;attributes&quot;, array(&quot;user_id&quot; =&gt; null, &quot;address&quot; =&gt; &quot;hello world&quot;, &quot;datetime&quot; =&gt; 1389990066))				</div>
+
+				<div class="code"><pre><span class="ln">60</span>         &quot;user_id&quot; =&gt; $user_id,
+<span class="ln">61</span>         &quot;address&quot; =&gt; $address,
+<span class="ln">62</span>         &quot;datetime&quot; =&gt; time(),
+<span class="ln">63</span>     );
+<span class="ln">64</span>     
+<span class="error"><span class="ln error-ln">65</span>     $this-&gt;attributes = $data;
+</span><span class="ln">66</span>     if ($this-&gt;validate()) {
+<span class="ln">67</span> 
+<span class="ln">68</span>     print_r($data);
+<span class="ln">69</span>     die();
+<span class="ln">70</span>       $this-&gt;save();
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#7			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php(162): <strong>AddressRecord</strong>-><strong>addUserAddress</strong>(null, &quot;hello world&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">157</span>     if (!$user_id) {
+<span class="ln">158</span>       $user_id = Yii::app()-&gt;user-&gt;getId();
+<span class="ln">159</span>     }
+<span class="ln">160</span>     
+<span class="ln">161</span>     $addressAr = new AddressRecord();
+<span class="error"><span class="ln error-ln">162</span>     $addressAr = $addressAr-&gt;addUserAddress($user_id, $address);
+</span><span class="ln">163</span> //    if (!$addressAr) {
+<span class="ln">164</span> //      return $this-&gt;responseError(array_shift($addressAr-&gt;getErrors()));
+<span class="ln">165</span> //    }
+<span class="ln">166</span> //    else {
+<span class="ln">167</span> //      return $this-&gt;responseJSON($addressAr-&gt;toArray(), &quot;success&quot;);
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#8			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php(49): <strong>UserController</strong>-><strong>actionAddaddress</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">44</span>         $controller=$this-&gt;getController();
+<span class="ln">45</span>         $method=new ReflectionMethod($controller, $methodName);
+<span class="ln">46</span>         if($method-&gt;getNumberOfParameters()&gt;0)
+<span class="ln">47</span>             return $this-&gt;runWithParamsInternal($controller, $method, $params);
+<span class="ln">48</span>         else
+<span class="error"><span class="ln error-ln">49</span>             return $controller-&gt;$methodName();
+</span><span class="ln">50</span>     }
+<span class="ln">51</span> 
+<span class="ln">52</span> }
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#9			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(308): <strong>CInlineAction</strong>-><strong>runWithParams</strong>(array())				</div>
+
+				<div class="code"><pre><span class="ln">303</span>     {
+<span class="ln">304</span>         $priorAction=$this-&gt;_action;
+<span class="ln">305</span>         $this-&gt;_action=$action;
+<span class="ln">306</span>         if($this-&gt;beforeAction($action))
+<span class="ln">307</span>         {
+<span class="error"><span class="ln error-ln">308</span>             if($action-&gt;runWithParams($this-&gt;getActionParams())===false)
+</span><span class="ln">309</span>                 $this-&gt;invalidActionParams($action);
+<span class="ln">310</span>             else
+<span class="ln">311</span>                 $this-&gt;afterAction($action);
+<span class="ln">312</span>         }
+<span class="ln">313</span>         $this-&gt;_action=$priorAction;
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#10			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(286): <strong>CController</strong>-><strong>runAction</strong>(CInlineAction)				</div>
+
+				<div class="code"><pre><span class="ln">281</span>      * @see runAction
+<span class="ln">282</span>      */
+<span class="ln">283</span>     public function runActionWithFilters($action,$filters)
+<span class="ln">284</span>     {
+<span class="ln">285</span>         if(empty($filters))
+<span class="error"><span class="ln error-ln">286</span>             $this-&gt;runAction($action);
+</span><span class="ln">287</span>         else
+<span class="ln">288</span>         {
+<span class="ln">289</span>             $priorAction=$this-&gt;_action;
+<span class="ln">290</span>             $this-&gt;_action=$action;
+<span class="ln">291</span>             CFilterChain::create($this,$action,$filters)-&gt;run();
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#11			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CController.php(265): <strong>CController</strong>-><strong>runActionWithFilters</strong>(CInlineAction, array())				</div>
+
+				<div class="code"><pre><span class="ln">260</span>         {
+<span class="ln">261</span>             if(($parent=$this-&gt;getModule())===null)
+<span class="ln">262</span>                 $parent=Yii::app();
+<span class="ln">263</span>             if($parent-&gt;beforeControllerAction($this,$action))
+<span class="ln">264</span>             {
+<span class="error"><span class="ln error-ln">265</span>                 $this-&gt;runActionWithFilters($action,$this-&gt;filters());
+</span><span class="ln">266</span>                 $parent-&gt;afterControllerAction($this,$action);
+<span class="ln">267</span>             }
+<span class="ln">268</span>         }
+<span class="ln">269</span>         else
+<span class="ln">270</span>             $this-&gt;missingAction($actionID);
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#12			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php(282): <strong>CController</strong>-><strong>run</strong>(&quot;addaddress&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">277</span>         {
+<span class="ln">278</span>             list($controller,$actionID)=$ca;
+<span class="ln">279</span>             $oldController=$this-&gt;_controller;
+<span class="ln">280</span>             $this-&gt;_controller=$controller;
+<span class="ln">281</span>             $controller-&gt;init();
+<span class="error"><span class="ln error-ln">282</span>             $controller-&gt;run($actionID);
+</span><span class="ln">283</span>             $this-&gt;_controller=$oldController;
+<span class="ln">284</span>         }
+<span class="ln">285</span>         else
+<span class="ln">286</span>             throw new CHttpException(404,Yii::t(&#039;yii&#039;,&#039;Unable to resolve the request &quot;{route}&quot;.&#039;,
+<span class="ln">287</span>                 array(&#039;{route}&#039;=&gt;$route===&#039;&#039;?$this-&gt;defaultController:$route)));
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#13			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php(141): <strong>CWebApplication</strong>-><strong>runController</strong>(&quot;user/addaddress&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">136</span>             foreach(array_splice($this-&gt;catchAllRequest,1) as $name=&gt;$value)
+<span class="ln">137</span>                 $_GET[$name]=$value;
+<span class="ln">138</span>         }
+<span class="ln">139</span>         else
+<span class="ln">140</span>             $route=$this-&gt;getUrlManager()-&gt;parseUrl($this-&gt;getRequest());
+<span class="error"><span class="ln error-ln">141</span>         $this-&gt;runController($route);
+</span><span class="ln">142</span>     }
+<span class="ln">143</span> 
+<span class="ln">144</span>     /**
+<span class="ln">145</span>      * Registers the core application components.
+<span class="ln">146</span>      * This method overrides the parent implementation by registering additional core components.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#14			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/framework/base/CApplication.php(180): <strong>CWebApplication</strong>-><strong>processRequest</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">175</span>     public function run()
+<span class="ln">176</span>     {
+<span class="ln">177</span>         if($this-&gt;hasEventHandler(&#039;onBeginRequest&#039;))
+<span class="ln">178</span>             $this-&gt;onBeginRequest(new CEvent($this));
+<span class="ln">179</span>         register_shutdown_function(array($this,&#039;end&#039;),0,false);
+<span class="error"><span class="ln error-ln">180</span>         $this-&gt;processRequest();
+</span><span class="ln">181</span>         if($this-&gt;hasEventHandler(&#039;onEndRequest&#039;))
+<span class="ln">182</span>             $this-&gt;onEndRequest(new CEvent($this));
+<span class="ln">183</span>     }
+<span class="ln">184</span> 
+<span class="ln">185</span>     /**
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#15			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/jackey/workspace/hfonline/html/admin/index.php(15): <strong>CApplication</strong>-><strong>run</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">10</span> defined(&#039;YII_TRACE_LEVEL&#039;) or define(&#039;YII_TRACE_LEVEL&#039;,3);
+<span class="ln">11</span> 
+<span class="ln">12</span> define(&quot;ROOT_PATH&quot;, dirname(__FILE__));
+<span class="ln">13</span> 
+<span class="ln">14</span> require_once($yii);
+<span class="error"><span class="ln error-ln">15</span> Yii::createWebApplication($config)-&gt;run();
+</span></pre></div>			</td>
+		</tr>
+				</table>
+	</div>
+
+	<div class="version">
+		2014-01-18 04:21:06 Apache/2.2.22 (Ubuntu) <a href="http://www.yiiframework.com/">Yii Framework</a>/1.1.14	</div>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var traceReg = new RegExp("(^|\\s)trace-file(\\s|$)");
+var collapsedReg = new RegExp("(^|\\s)collapsed(\\s|$)");
+
+var e = document.getElementsByTagName("div");
+for(var j=0,len=e.length;j<len;j++){
+	if(traceReg.test(e[j].className)){
+		e[j].onclick = function(){
+			var trace = this.parentNode.parentNode;
+			if(collapsedReg.test(trace.className))
+				trace.className = trace.className.replace("collapsed", "expanded");
+			else
+				trace.className = trace.className.replace("expanded", "collapsed");
+		}
+	}
+}
+/*]]>*/
+</script>
+
+</body>
+</html>
+' contains "jadsad". [] []
+[2014-01-18 04:21:06] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:21:06] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:22:51] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:22:51] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:22:51] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+	<h1>PHP warning</h1>
+
+	<p class="message">
+		array_slice() expects parameter 1 to be array, string given	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/framework/base/CModel.php(287)</p>
+		<div class="code"><pre><span class="ln">275</span>     /**
+<span class="ln">276</span>      * Creates validator objects based on the specification in {@link rules}.
+<span class="ln">277</span>      * This method is mainly used internally.
+<span class="ln">278</span>      * @throws CException if current class has an invalid validation rule
+<span class="ln">279</span>      * @return CList validators built based on {@link rules()}.
+<span class="ln">280</span>      */
+<span class="ln">281</span>     public function createValidators()
+<span class="ln">282</span>     {
+<span class="ln">283</span>         $validators=new CList;
+<span class="ln">284</span>         foreach($this-&gt;rules() as $rule)
+<span class="ln">285</span>         {
+<span class="ln">286</span>             if(isset($rule[0],$rule[1]))  // attributes, validator name
+<span class="error"><span class="ln error-ln">287</span>                 $validators-&gt;add(CValidator::createValidator($rule[1],$this,$rule[0],array_slice($rule,2)));
+</span><span class="ln">288</span>             else
+<span class="ln">289</span>                 throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.&#039;,
+<span class="ln">290</span>                     array(&#039;{class}&#039;=&gt;get_class($this))));
+<span class="ln">291</span>         }
+<span class="ln">292</span>         return $validators;
+<span class="ln">293</span>     }
+<span class="ln">294</span> 
+<span class="ln">295</span>     /**
+<span class="ln">296</span>      * Returns a value indicating whether the attribute is required.
+<span class="ln">297</span>      * This is determined by checking if the attribute is associated with a
+<span class="ln">298</span>      * {@link CRequiredValidator} validation rule in the current {@link scenario}.
+<span class="ln">299</span>      * @param string $attribute attribute name
+</pre></div>	</div>' contains "jadsad". [] []
+[2014-01-18 04:22:51] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:22:51] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:23:42] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:23:43] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:23:43] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+	<h1>PHP warning</h1>
+
+	<p class="message">
+		array_slice() expects parameter 1 to be array, string given	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/framework/base/CModel.php(287)</p>
+		<div class="code"><pre><span class="ln">275</span>     /**
+<span class="ln">276</span>      * Creates validator objects based on the specification in {@link rules}.
+<span class="ln">277</span>      * This method is mainly used internally.
+<span class="ln">278</span>      * @throws CException if current class has an invalid validation rule
+<span class="ln">279</span>      * @return CList validators built based on {@link rules()}.
+<span class="ln">280</span>      */
+<span class="ln">281</span>     public function createValidators()
+<span class="ln">282</span>     {
+<span class="ln">283</span>         $validators=new CList;
+<span class="ln">284</span>         foreach($this-&gt;rules() as $rule)
+<span class="ln">285</span>         {
+<span class="ln">286</span>             if(isset($rule[0],$rule[1]))  // attributes, validator name
+<span class="error"><span class="ln error-ln">287</span>                 $validators-&gt;add(CValidator::createValidator($rule[1],$this,$rule[0],array_slice($rule,2)));
+</span><span class="ln">288</span>             else
+<span class="ln">289</span>                 throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.&#039;,
+<span class="ln">290</span>                     array(&#039;{class}&#039;=&gt;get_class($this))));
+<span class="ln">291</span>         }
+<span class="ln">292</span>         return $validators;
+<span class="ln">293</span>     }
+<span class="ln">294</span> 
+<span class="ln">295</span>     /**
+<span class="ln">296</span>      * Returns a value indicating whether the attribute is required.
+<span class="ln">297</span>      * This is determined by checking if the attribute is associated with a
+<span class="ln">298</span>      * {@link CRequiredValidator} validation rule in the current {@link scenario}.
+<span class="ln">299</span>      * @param string $attribute attribute name
+</pre></div>	</div>' contains "jadsad". [] []
+[2014-01-18 04:23:43] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:23:43] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:24:35] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:24:35] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:24:35] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+	<h1>PHP warning</h1>
+
+	<p class="message">
+		array_slice() expects parameter 1 to be array, string given	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/framework/base/CModel.php(287)</p>
+		<div class="code"><pre><span class="ln">275</span>     /**
+<span class="ln">276</span>      * Creates validator objects based on the specification in {@link rules}.
+<span class="ln">277</span>      * This method is mainly used internally.
+<span class="ln">278</span>      * @throws CException if current class has an invalid validation rule
+<span class="ln">279</span>      * @return CList validators built based on {@link rules()}.
+<span class="ln">280</span>      */
+<span class="ln">281</span>     public function createValidators()
+<span class="ln">282</span>     {
+<span class="ln">283</span>         $validators=new CList;
+<span class="ln">284</span>         foreach($this-&gt;rules() as $rule)
+<span class="ln">285</span>         {
+<span class="ln">286</span>             if(isset($rule[0],$rule[1]))  // attributes, validator name
+<span class="error"><span class="ln error-ln">287</span>                 $validators-&gt;add(CValidator::createValidator($rule[1],$this,$rule[0],array_slice($rule,2)));
+</span><span class="ln">288</span>             else
+<span class="ln">289</span>                 throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.&#039;,
+<span class="ln">290</span>                     array(&#039;{class}&#039;=&gt;get_class($this))));
+<span class="ln">291</span>         }
+<span class="ln">292</span>         return $validators;
+<span class="ln">293</span>     }
+<span class="ln">294</span> 
+<span class="ln">295</span>     /**
+<span class="ln">296</span>      * Returns a value indicating whether the attribute is required.
+<span class="ln">297</span>      * This is determined by checking if the attribute is associated with a
+<span class="ln">298</span>      * {@link CRequiredValidator} validation rule in the current {@link scenario}.
+<span class="ln">299</span>      * @param string $attribute attribute name
+</pre></div>	</div>' contains "jadsad". [] []
+[2014-01-18 04:24:35] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:24:35] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:27:11] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:27:11] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:27:11] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+	<h1>PHP notice</h1>
+
+	<p class="message">
+		Undefined variable: value	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/admin/protected/models/AddressRecord.php(29)</p>
+		<div class="code"><pre><span class="ln">17</span>     return parent::model($class);
+<span class="ln">18</span>   }
+<span class="ln">19</span>   
+<span class="ln">20</span>   public function rules() {
+<span class="ln">21</span>     return array(
+<span class="ln">22</span>         array(&quot;user_id&quot;, &quot;userExist&quot;),
+<span class="ln">23</span>         array(&quot;address&quot;, &quot;required&quot;),
+<span class="ln">24</span>         array(&quot;datetime, ud_id&quot;, &quot;safe&quot;)
+<span class="ln">25</span>     );
+<span class="ln">26</span>   }
+<span class="ln">27</span>   
+<span class="ln">28</span>   public function userExist($attribute, $params = array()) {
+<span class="error"><span class="ln error-ln">29</span>     $user = UserRecord::model()-&gt;findByPk($value);
+</span><span class="ln">30</span>     if (!$user) {
+<span class="ln">31</span>       $this-&gt;addError($attribute, &quot;user is not existed&quot;);
+<span class="ln">32</span>       return FALSE;
+<span class="ln">33</span>     }
+<span class="ln">34</span>     return TRUE;
+<span class="ln">35</span>   }
+<span class="ln">36</span> 
+<span class="ln">37</span> 
+<span class="ln">38</span>   /**
+<span class="ln">39</span>    * 返回用户的地址列表
+<span class="ln">40</span>    * @param type $user_id 用户ID
+<span class="ln">41</span>    */
+</pre></div>	</div>' contains "jadsad". [] []
+[2014-01-18 04:27:11] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:27:11] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:27:43] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:27:43] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:27:43] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "jadsad". [] []
+[2014-01-18 04:27:43] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:27:43] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:27:53] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:27:53] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:27:53] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "jadsad". [] []
+[2014-01-18 04:27:53] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:27:53] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:28:09] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:28:09] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:28:09] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "jadsad". [] []
+[2014-01-18 04:28:09] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:28:09] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:28:22] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:28:22] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:28:22] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '' contains "jadsad". [] []
+[2014-01-18 04:28:22] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:28:22] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:30:00] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:30:00] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:30:00] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+Fatal error: Call to a member function getErrors() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php on line 164
+
+Call Stack:
+    0.0001     332220   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0154    1939924   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0154    1940620   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0187    2152296   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0218    2589852   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0223    2631548   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0223    2631548   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0224    2631548   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0224    2632400   9. UserController->actionAddaddress() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+
+' contains "jadsad". [] []
+[2014-01-18 04:30:00] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:30:00] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:30:42] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:30:42] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:30:42] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+	<h1>CException</h1>
+
+	<p class="message">
+		AddressRecord and its behaviors do not have a method or closure named &quot;hasError&quot;.	</p>
+
+	<div class="source">
+		<p class="file">/home/jackey/workspace/hfonline/html/framework/base/CComponent.php(266)</p>
+		<div class="code"><pre><span class="ln">254</span>     public function __call($name,$parameters)
+<span class="ln">255</span>     {
+<span class="ln">256</span>         if($this-&gt;_m!==null)
+<span class="ln">257</span>         {
+<span class="ln">258</span>             foreach($this-&gt;_m as $object)
+<span class="ln">259</span>             {
+<span class="ln">260</span>                 if($object-&gt;getEnabled() &amp;&amp; method_exists($object,$name))
+<span class="ln">261</span>                     return call_user_func_array(array($object,$name),$parameters);
+<span class="ln">262</span>             }
+<span class="ln">263</span>         }
+<span class="ln">264</span>         if(class_exists(&#039;Closure&#039;, false) &amp;&amp; $this-&gt;canGetProperty($name) &amp;&amp; $this-&gt;$name instanceof Closure)
+<span class="ln">265</span>             return call_user_func_array($this-&gt;$name, $parameters);
+<span class="error"><span class="ln error-ln">266</span>         throw new CException(Yii::t(&#039;yii&#039;,&#039;{class} and its behaviors do not have a method or closure named &quot;{name}&quot;.&#039;,
+</span><span class="ln">267</span>             array(&#039;{class}&#039;=&gt;get_class($this), &#039;{name}&#039;=&gt;$name)));
+<span class="ln">268</span>     }
+<span class="ln">269</span> 
+<span class="ln">270</span>     /**
+<span class="ln">271</span>      * Returns the named behavior object.
+<span class="ln">272</span>      * The name &#039;asa&#039; stands for &#039;as a&#039;.
+<span class="ln">273</span>      * @param string $behavior the behavior name
+<span class="ln">274</span>      * @return IBehavior the behavior object, or null if the behavior does not exist
+<span class="ln">275</span>      */
+<span class="ln">276</span>     public function asa($behavior)
+<span class="ln">277</span>     {
+<span class="ln">278</span>         return isset($this-&gt;_m[$behavior]) ? $this-&gt;_m[$behavior] : null;
+</pre></div>	</div>' contains "jadsad". [] []
+[2014-01-18 04:30:42] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:30:42] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:30:58] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:30:58] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:30:58] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"user_id":null,"address":"hello world","datetime":1389990658,"ua_id":null}}' contains "jadsad". [] []
+[2014-01-18 04:30:58] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:30:58] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:31:32] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:31:32] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:31:32] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":["user is not existed"],"data":null}' contains "jadsad". [] []
+[2014-01-18 04:31:32] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:31:32] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:31:44] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:31:44] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:31:44] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:31:44] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:31:44] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:32:22] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:32:23] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:32:23] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:32:23] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:32:23] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:33:16] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:33:17] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:33:17] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'user_idArray
+(
+    [user_id] => 
+    [address] => hello world
+    [datetime] => 1389990797
+    [ua_id] => 
+)
+{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:33:17] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:33:17] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:34:10] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:34:10] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:34:10] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'user id: user_idArray
+(
+    [user_id] => 
+    [address] => hello world
+    [datetime] => 1389990850
+    [ua_id] => 
+)
+{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:34:10] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:34:10] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:34:40] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:34:40] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:34:40] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'user id: user_idArray
+(
+    [user_id] => 
+    [address] => hello world
+    [datetime] => 1389990880
+    [ua_id] => 
+)
+{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:34:40] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:34:40] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:36:05] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:36:05] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:36:05] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that 'user id: user_idArray
+(
+    [user_id] => 
+    [address] => hello world
+    [datetime] => 1389990965
+    [ua_id] => 
+)
+{"success":false,"message":"user is not existed","data":null}' contains "jadsad". [] []
+[2014-01-18 04:36:05] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:36:05] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:36:22] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:36:22] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:36:22] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend ","data":null}' contains "jadsad". [] []
+[2014-01-18 04:36:22] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:36:22] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:37:39] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:37:39] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:37:39] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend ","data":null}' contains "jadsad". [] []
+[2014-01-18 04:37:39] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:37:39] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:44:59] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:44:59] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:44:59] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend ","data":null}' contains "jadsad". [] []
+[2014-01-18 04:44:59] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:44:59] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:49:26] UserAddAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:49:26] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:49:27] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:49:27] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend ","data":null}' contains "jadsad". [] []
+[2014-01-18 04:49:27] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:49:27] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend ","data":null}' contains "jadsad". [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:50:10] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.INFO: send post "user/test",{"address":"hello world"} [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"error happend 15","data":null}' contains "jadsad". [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:50:32] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.INFO: see response contains "jadsad" [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":{"user_id":"15","address":"hello world","datetime":1389991885,"ua_id":"1"}}' contains "jadsad". [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:51:25] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: send post "user/addaddress",{"address":"hello world"} [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:51:45] UserAddAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: send get "user/address" [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 04:53:14] UserAddressCept.php.ALERT: json decoding error #4, see http://php.net/manual/en/function.json-last-error.php
+Failed asserting that 4 matches expected 0. [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:53:14] UserAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:53:39] UserAddressCept.php.INFO: send get "user/address" [] []
+[2014-01-18 04:53:39] UserAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:53:39] UserAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+Fatal error: Call to a member function toArray() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php on line 146
+
+Call Stack:
+    0.0003     331764   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0167    1939448   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0168    1940144   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0201    2151844   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0233    2590852   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0238    2632528   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0238    2632528   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0238    2632528   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0239    2633372   9. UserController->actionAddress() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+
+' contains "success". [] []
+[2014-01-18 04:53:39] UserAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:53:39] UserAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:54:22] UserAddressCept.php.INFO: send get "user/address" [] []
+[2014-01-18 04:54:22] UserAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:54:22] UserAddressCept.php.ALERT: REST response contains
+Failed asserting that '
+Fatal error: Call to a member function toArray() on a non-object in /home/jackey/workspace/hfonline/html/admin/protected/controllers/UserController.php on line 149
+
+Call Stack:
+    0.0003     331764   1. {main}() /home/jackey/workspace/hfonline/html/admin/index.php:0
+    0.0177    1939448   2. CApplication->run() /home/jackey/workspace/hfonline/html/admin/index.php:15
+    0.0178    1940144   3. CWebApplication->processRequest() /home/jackey/workspace/hfonline/html/framework/base/CApplication.php:180
+    0.0211    2151844   4. CWebApplication->runController() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:141
+    0.0243    2591896   5. CController->run() /home/jackey/workspace/hfonline/html/framework/web/CWebApplication.php:282
+    0.0248    2633584   6. CController->runActionWithFilters() /home/jackey/workspace/hfonline/html/framework/web/CController.php:265
+    0.0248    2633584   7. CController->runAction() /home/jackey/workspace/hfonline/html/framework/web/CController.php:286
+    0.0248    2633584   8. CInlineAction->runWithParams() /home/jackey/workspace/hfonline/html/framework/web/CController.php:308
+    0.0249    2634428   9. UserController->actionAddress() /home/jackey/workspace/hfonline/html/framework/web/actions/CInlineAction.php:49
+
+' contains "success". [] []
+[2014-01-18 04:54:22] UserAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 04:54:22] UserAddressCept.php.INFO: PASSED [] []
+[2014-01-18 04:54:41] UserAddressCept.php.INFO: send get "user/address" [] []
+[2014-01-18 04:54:42] UserAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 04:54:42] UserAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"address":"hello world"} [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 17:28:30] UserDeleteAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"address":"hello world"} [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 17:32:41] UserDeleteAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:33:13] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"address":"hello world"} [] []
+[2014-01-18 17:33:13] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:33:13] UserDeleteAddressCept.php.INFO: see response contains "success" [] []
+[2014-01-18 17:33:13] UserDeleteAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"address":"hello world"} [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.INFO: see response contains "hi nihao" [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":false,"message":"invalid params","data":null}' contains "hi nihao". [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 17:33:21] UserDeleteAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:34:17] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"ua_id":"1"} [] []
+[2014-01-18 17:34:18] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:34:18] UserDeleteAddressCept.php.INFO: see response contains "hi nihao" [] []
+[2014-01-18 17:34:18] UserDeleteAddressCept.php.ALERT: REST response contains
+Failed asserting that '{"success":true,"message":"success","data":[]}' contains "hi nihao". [] []
+[2014-01-18 17:34:18] UserDeleteAddressCept.php.INFO: # FAILED # [] []
+[2014-01-18 17:34:18] UserDeleteAddressCept.php.INFO: PASSED [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: send post "user/deleteaddress",{"ua_id":"1"} [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: have http header "Content-Type","appliction/x-www-form-urlencoded" [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: see response code is 200 [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: see response is json  [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: see response contains ""success":true" [] []
+[2014-01-18 17:34:47] UserDeleteAddressCept.php.INFO: PASSED [] []
