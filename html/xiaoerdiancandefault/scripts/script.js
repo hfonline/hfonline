@@ -3,24 +3,40 @@
   $(function() {
     $('.index-list-order-button').click(function () {
       if (!$(this).hasClass("toggle")) {
-        $(".detail-order-select", $(this).parent(".item").parent(".food-items")).hide("fast");
-        var detailBox = $(this).siblings(".detail-order-select");
-        var w = $(this).parent(".item").width();
-        var h = $(this).parent(".item").height();
-        detailBox.css({
-          left: "10px",
-          top: "0px"
-        }).show("fast");
+        var buydetail = $("#detail-buy-container");
+        buydetail.parent().css("position", "relative");
+        buydetail.css({
+            display: "block",
+        });
         $(this).addClass("toggle");
       }
       else {
         $(this).removeClass("toggle");
-        $(this).siblings(".detail-order-select").hide("fast");
       }
+    });
+    
+    $("#detail-buy-container input[name='buy-detail-ok-btn']").click(function () {
+        $("#detail-buy-container").hide();
     });
   });
 })(jQuery);
 
+// record the scroll size
+(function ($) {
+    $(function () {
+        $(window).scroll(function () {
+            // buy detail 
+            var buydetail = $("#detail-buy-container");
+            buydetail.css({
+                top: parseInt($(window).scrollTop()) + 30 + "px"
+            });
+        });
+        $("#content .content").scroll(function () {
+            console.log("HELLO");
+        });
+    })
+
+})(jQuery);
 
 // Filter show/hide
 (function ($) {

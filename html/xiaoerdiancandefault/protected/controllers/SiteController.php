@@ -29,9 +29,10 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+    $food = FoodAR::loadFood(1);
+		$this->render('index', array(
+        "food_list" => $food
+    ));
 	}
 
 	/**

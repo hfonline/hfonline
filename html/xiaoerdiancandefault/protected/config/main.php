@@ -86,7 +86,8 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'jziwenchen@gmail.com',
+      "api_url" => "http://hfonline.api.local/"
 	),
-    'sourceLanguage' => "en",
-    'language'=>'zh-hans', 
+        'sourceLanguage' => "en",
+        'language'=>'zh-hans', 
 );

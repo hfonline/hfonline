@@ -313,6 +313,7 @@ span.star .star-5-5 {
   float:left;
   margin: 5px 10px;
   position: relative;
+  width:190px;
 }
 
 #index-main-block .food-items .item .detail-order-select {
@@ -365,10 +366,12 @@ span.star .star-5-5 {
   margin: 0;
   color: #ff7f00;
   margin: 5px 2px;
+  overflow:hidden;
 }
 
 .food-items .item .star-price, .block .item star-price {
   margin: 5px 2px;
+  overflow: hidden;
 }
 
 .food-items .item input, .block .item input {
@@ -474,4 +477,13 @@ span.star .star-5-5 {
 
 #main {
   padding-top: 152px;
+}
+
+#detail-buy-container {
+    top: 30px;
+    position: absolute;
+    z-index: 1000;
+    right: 0px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
 }

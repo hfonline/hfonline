@@ -147,3 +147,63 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/index.php?r=site/summary
 ---
+2014/02/07 01:28:47 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Chongqing' for 'CST/8.0/no DST' instead (/Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/main.php:122)
+Stack trace:
+#0 /usr/local/lib/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /usr/local/lib/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /usr/local/lib/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /usr/local/lib/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /usr/local/lib/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /usr/local/lib/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /usr/local/lib/yii/framework/web/CBaseController.php(126): require()
+#8 /usr/local/lib/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /usr/local/lib/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/controllers/SiteController.php(34): SiteController->render()
+#11 /usr/local/lib/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /usr/local/lib/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /usr/local/lib/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /usr/local/lib/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /usr/local/lib/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /usr/local/lib/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /usr/local/lib/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/main.php (122)
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/column1.php (6)
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/controllers/SiteController.php (34)
+2014/02/07 01:30:56 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Chongqing' for 'CST/8.0/no DST' instead (/Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/main.php:122)
+Stack trace:
+#0 /usr/local/lib/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /usr/local/lib/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /usr/local/lib/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /usr/local/lib/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /usr/local/lib/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /usr/local/lib/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /usr/local/lib/yii/framework/web/CBaseController.php(126): require()
+#8 /usr/local/lib/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /usr/local/lib/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/controllers/SiteController.php(34): SiteController->render()
+#11 /usr/local/lib/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /usr/local/lib/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /usr/local/lib/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /usr/local/lib/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /usr/local/lib/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /usr/local/lib/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /usr/local/lib/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/main.php (122)
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/views/layouts/column1.php (6)
+in /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/protected/controllers/SiteController.php (34)
+2014/02/07 02:30:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "orderview".' in /usr/local/lib/yii/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/lib/yii/framework/web/CController.php(270): CController->missingAction('orderview')
+#1 /usr/local/lib/yii/framework/web/CWebApplication.php(282): CController->run('orderview')
+#2 /usr/local/lib/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/orderview')
+#3 /usr/local/lib/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/jackeychen/Workspace/hfonline/html/xiaoerdiancandefault/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/orderview
+---
