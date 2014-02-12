@@ -79,34 +79,16 @@
             <div class="title"><h3><?php echo Yii::t('strings', "Your Order") ?></h3></div>
             <div class="content">
               <div class="user-info">
-                <span>未登陆</span>
+                <span></span>
               </div>
               <div class="order-items">
+                <?php foreach (FoodAR::orderItems() as $item):?>
                 <div class="items">
-                  <span>咖喱鸡肉饭简餐</span>
+                  <span><?php echo $item["food"]["title"]?></span>
                   <span class="symbol-rmb"></span><span>14</span>
                   <span>2</span><span>份</span>
                 </div>
-                <div class="items">
-                  <span>咖喱鸡肉饭简餐</span>
-                  <span class="symbol-rmb"></span><span>14</span>
-                  <span>2</span><span>份</span>
-                </div>
-                <div class="items">
-                  <span>咖喱鸡肉饭简餐</span>
-                  <span class="symbol-rmb"></span><span>14</span>
-                  <span>2</span><span>份</span>
-                </div>
-                <div class="items">
-                  <span>咖喱鸡肉饭简餐</span>
-                  <span class="symbol-rmb"></span><span>14</span>
-                  <span>2</span><span>份</span>
-                </div>
-                <div class="items">
-                  <span>咖喱鸡肉饭简餐</span>
-                  <span class="symbol-rmb"></span><span>14</span>
-                  <span>2</span><span>份</span>
-                </div>
+                <?php endforeach;?>
                 <div class="order-button"><input type="button" value="<?php echo Yii::t("strings", "Pay now")?>" /></div>
               </div>
             </div>

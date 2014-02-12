@@ -85,8 +85,9 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'jziwenchen@gmail.com',
-      "api_url" => "http://hfonline.api.local/"
+      'adminEmail'=>'jziwenchen@gmail.com',
+      "api_url" => "http://hfonline.api.local/",
+      "enable_cache" => FALSE 
 	),
         'sourceLanguage' => "en",
         'language'=>'zh-hans', 

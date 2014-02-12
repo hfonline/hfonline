@@ -8,6 +8,7 @@
         buydetail.css({
             display: "block",
         });
+        $("input[name='food_id']", buydetail).val($(this).siblings("input[name='food_id']").val());
         $(this).addClass("toggle");
       }
       else {
@@ -17,6 +18,20 @@
     
     $("#detail-buy-container input[name='buy-detail-ok-btn']").click(function () {
         $("#detail-buy-container").hide();
+        var buydetail = $("#detail-buy-container");
+        
+        $.ajax({
+            url: "/?r=order/addoneitem",
+            type: "post",
+            dataType: "json",
+            data: {food_id: $("input[name='food_id']", buydetail).val(), "note": $("textarea[name='note']", buydetail).val(), more_spicy: $("input[name='more_spicy']").val()},
+            success: function (data, status) {
+                // clean data
+                $("input[name='food_id']", buydetail).val('');
+                $("textarea[name='note']", buydetail).val('');
+                $("input[name='more_spicy']").val('');
+            }
+        });
     });
   });
 })(jQuery);

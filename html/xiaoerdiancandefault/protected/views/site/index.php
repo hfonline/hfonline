@@ -7,20 +7,13 @@ $this->pageTitle = Yii::t('strings', Yii::app()->name);
   <div id="detail-buy-container"  style="display:none">
     <div class="title">订餐详情</div>
     <div class="form-order">
-      <form action="">
+      <form action="" name="detail-buy">
         <div class="row">
-          <label for="">口味</label><input type="text" />
+          <label for="">加辣</label><input type="checkbox" name="more_spicy" />
         </div>
-        <div class="row">
-          <label for="">口味</label><input type="text" />
-        </div>
-        <div class="row">
-          <label for="">口味</label><input type="text" /></div>
-        <div class="row">
-          <label for="">口味</label><input type="text" /></div>
-        <div class="row">
-          <label for="">特别留言</label><textarea></textarea></div>
+        <div><label for="">特别留言</label><textarea cols="20" rows="6" name="note"></textarea></div>
         <div class="row"><input type="button" value="好了" name="buy-detail-ok-btn" /></div>
+        <input type="hidden" value="0" name="food_id" />
       </form>
     </div>
   </div>
@@ -61,23 +54,9 @@ $this->pageTitle = Yii::t('strings', Yii::app()->name);
         <div class="star-price"><span class="star star-5-5"></span>
         <span class="symbol-rmb price"><?php echo $food["field_price"]?></span></div>
         <input type="button" value="Order" class="index-list-order-button" />
+        <input type="hidden" value="<?php echo $food["nid"]?>" name="food_id" />
       </div>
       <?php endforeach;?>
-      <div class="item">
-        <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
-        <h3>咖喱鸡肉饭简餐</h3>
-        <div class="star-price"><span class="star star-5-5"></span>
-        <span class="symbol-rmb price">14</span></div>
-        <input type="button" value="Order" class="index-list-order-button" />
-        <div class="detail-order-select" style="display: none">
-          <img src="/uploads/images/bebe8169eb24a433f2e7941e659cajpeg_size_240_180.jpeg" alt="" />
-          <h3>咖喱鸡肉饭简餐</h3>
-          <div class="star-price"><span class="star star-5-5"></span>
-          <span class="symbol-rmb price">14</span></div>
-        </div>
-      </div>
-
-
     </div>
   </div>
 </div>

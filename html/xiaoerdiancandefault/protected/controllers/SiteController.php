@@ -31,7 +31,8 @@ class SiteController extends Controller
 	{
     $food = FoodAR::loadFood(1);
 		$this->render('index', array(
-        "food_list" => $food
+        "food_list" => $food["list"],
+        "pager" => $food["pager"],
     ));
 	}
 
@@ -109,12 +110,16 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+  
+  public function actionDestroyCache() {
+    Yii::app()->session->destroy();
+  }
     
-    public function actionAddress() {
-      $this->render("address");
-    }
-    
-    public function actionConfirm() {
-      $this->render("confirm");
-    }
+  public function actionAddress() {
+    $this->render("address");
+  }
+
+  public function actionConfirm() {
+    $this->render("confirm");
+  }
 }

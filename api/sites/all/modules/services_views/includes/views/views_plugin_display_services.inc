@@ -52,6 +52,15 @@ class views_plugin_display_services extends views_plugin_display {
         $result[] = $new_item;
       }
     }
+    
+    // add more infomation so that client knows how to display pager
+    $pager = $this->view->query->pager;
+    $info = array(
+        "current_page" => $pager->current_page,
+        "items_per_page" => $pager->options["items_per_page"],
+        "total_rows" => $pager->total_items,
+    );
+    $result[] = $info;
 
     return $result;
   }
