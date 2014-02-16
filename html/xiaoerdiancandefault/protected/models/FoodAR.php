@@ -49,5 +49,9 @@ class FoodAR {
     }
     return $items;
   }
+  
+  public static function clearOrderItems() {
+    unset(Yii::app()->session["order_items"]);
+  }
 }
 

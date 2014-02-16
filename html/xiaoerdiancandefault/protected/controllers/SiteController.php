@@ -120,6 +120,79 @@ class SiteController extends Controller
   }
 
   public function actionConfirm() {
+    $request = Yii::app()->getRequest();
+    
+    if ($request->getParam("address") == "") {
+      $this->responseError("Hello WORLD");
+      //$this->redirect("site/address");
+    }
+    
     $this->render("confirm");
+  }
+  
+  public function actionSubmit() {
+    $request = Yii::app()->getRequest();
+    
+    $address = $request->getPost("address");
+    $region = $request->getPost("region");
+    $foods = FoodAR::orderItems();
+    $lat = $request->getPost("lat");
+    $lng = $request->getPost("lng");
+    
+    $body = $request->getPost("memo");
+    $phone = $request->getPost("phone");
+    
+    $title = "用户订单-日期 " . date("Y-m-d h:m:s") . " 电话 " . $phone;
+    
+    if (!$request->isPostRequest) {
+      return $this->redirect(array("index"));
+    }
+    
+    $items = FoodAR::orderItems();
+    if (empty($items)) {
+      return $this->redirect(array("index"));
+    }
+    
+    // Step1, Get field orders array
+    $field_orders = array();
+    foreach ($items as  $item) {
+      $food_id = $item["food_id"];
+      $note = $item["note"];
+      $more_spicy = $item["more_spicy"];
+      $field_orders[] = array (
+          "field_reference_food" => $food_id,
+          "field_item_note" => $note,
+          "field_more_spicy" => $more_spicy == "on" ? 1 : 0,
+      );
+    }
+    
+    $order = array(
+        "title" => $title,
+        "body" => $body,
+        "type" => "order",
+        "field_operator" => 1,
+        "field_delivery_status" => 0,
+        "field_customer_phone" => $phone,
+        "field_order_items" => $field_orders,
+        "field_delivery_address" => $address,
+        "field_delivery_region" => $region,
+    );
+    
+    $base_url = Yii::app()->params["api_url"];
+    $url = $base_url."/food/front/node";
+    
+    $data = $this->postTo($url, $this->wrapper($order));
+    
+    $data = json_decode($data, TRUE);
+    
+    //FoodAR::clearOrderItems();
+    if (isset($data["nid"])) {
+      return $this->redirect(array("order/status", "order_id" => $data["nid"]));
+    }
+    else {
+      $this->render("submit", array(
+          "data" => $data
+      ));
+    }
   }
 }

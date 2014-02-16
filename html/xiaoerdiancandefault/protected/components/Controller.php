@@ -28,6 +28,16 @@ class Controller extends CController
     public function responseJSON($data, $message, $ext = array()) {
       $this->_renderjson($this->wrapperDataInRest($data, $message, FALSE, $ext));
     }
+    
+    public function fieldsInList() {
+      return array(
+          "field_delivery_region",
+          "field_operator",
+          "field_delivery_status",
+          "field_reference_food",
+          "field_more_spicy"
+      );
+    }
 
     public function wrapperDataInRest($data, $message = '', $error = FALSE, $ext = array()) {
       $json = array(
@@ -54,7 +64,9 @@ class Controller extends CController
       curl_setopt($req, CURLOPT_URL, $url);
       curl_setopt($req, CURLOPT_POST, 1);
       curl_setopt($req, CURLOPT_RETURNTRANSFER, 1);
-      curl_setopt($req, CURLOPT_HTTPHEADER, array("Content-Type: multipart/form-data"));
+      curl_setopt($req, CURLOPT_HTTPHEADER, array("Content-Type: application/x-www-form-urlencoded"));
+      //curl_setopt($req, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
+      //curl_setopt($req, CURLOPT_HTTPHEADER, array("Content-Type: multipart/form-data"));
       curl_setopt($req, CURLOPT_POSTFIELDS, http_build_query($data));
       
       $res = curl_exec($req);
@@ -64,11 +76,17 @@ class Controller extends CController
     }
     
     public function wrapper($data) {
+      $data["status"] = 1;
       $lang_key = 'und';
       foreach ($data as $key => $d) {
-        if (!is_numeric($key) && strpos($key, "field_") !== FALSE) {
+        if (!is_numeric($key) && ( strpos($key, "field_") !== FALSE || strpos($key, "body") !== FALSE)) {
           if (is_array($d)) {
             $d = $this->wrapper($d);
+          }
+          else {
+            if (!in_array($key, $this->fieldsInList())) {
+              $d = array(array("value" => $d));
+            }
           }
           $data[$key] = array($lang_key => $d);
         }

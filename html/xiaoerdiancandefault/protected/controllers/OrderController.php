@@ -92,5 +92,22 @@ class OrderController extends Controller {
     return $this->responseJSON(FoodAR::orderItems(), "success");
   }
   
+  public function actionStatus() {
+    $request = Yii::app()->getRequest();
+    
+    $order_id = $request->getParam("order_id");
+    $data = OrderAR::loadOrder($order_id);
+    
+    $view_data = array();
+    if (isset($data["nid"])) {
+      $view_data["node"] = $data;
+    }
+    else {
+      $view_data["node"] = NULL;
+    }
+    
+    $this->render("status");
+  }
+  
 }
 

@@ -448,6 +448,11 @@ span.star .star-5-5 {
   font-size: 15px;
 }
 
+#block_custom_order .order-items {
+    max-height:180px;
+    overflow: auto;
+}
+
 #confirm-main-block .order-items .item {
   clear:both;
 }
@@ -486,4 +491,8 @@ span.star .star-5-5 {
     right: 0px;
     width: 500px;
     background-color: rgb(255, 255, 255);
+}
+
+.order-status {
+    height: 300px;
 }

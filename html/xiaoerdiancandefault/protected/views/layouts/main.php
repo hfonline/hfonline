@@ -75,22 +75,25 @@
 <?php $this->endWidget(); ?>
             </div>
           </div>
-          <div class="block">
+          <div class="block" id="block_custom_order">
             <div class="title"><h3><?php echo Yii::t('strings', "Your Order") ?></h3></div>
             <div class="content">
               <div class="user-info">
                 <span></span>
               </div>
               <div class="order-items">
+                <div class="items" style="display: none">
+                  <span class="title"></span>
+                  <span class="symbol-rmb"></span><span class="price"></span>
+                </div>
                 <?php foreach (FoodAR::orderItems() as $item):?>
                 <div class="items">
-                  <span><?php echo $item["food"]["title"]?></span>
-                  <span class="symbol-rmb"></span><span>14</span>
-                  <span>2</span><span>份</span>
+                  <span class="title"><?php echo $item["food"]["title"]?></span>
+                  <span class="symbol-rmb"></span><span class="price"><?php echo $item["food"]["field_price"]["und"][0]["value"]?></span>
                 </div>
                 <?php endforeach;?>
-                <div class="order-button"><input type="button" value="<?php echo Yii::t("strings", "Pay now")?>" /></div>
               </div>
+               <div class="order-button"><input type="button" value="<?php echo Yii::t("strings", "Pay now")?>" /></div>
             </div>
           </div>
         </div>
